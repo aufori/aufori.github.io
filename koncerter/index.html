@@ -1,0 +1,705 @@
+<!DOCTYPE html><html><head><title>AUFORI: Koncerter</title><meta property="og:title" content="AUFORI's hjemmeside"><meta property="og:image" content="https://aufori.dk/images/Logo21723996443988.jpg"><meta property="og:type" content="website"><link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700&display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet"><link rel="icon" type="image/png" href="/images/browserlogo1723996443988.png"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#fffffc"><meta name="format-detection" content="telephone=no"><meta charset="utf-8"><!-- Global site tag (gtag.js) - Google Analytics --><script type="text/javascript">function gtag () {return null}function activateAnalytics () {const script = document.createElement('script');script.setAttribute('src', 'https://www.googletagmanager.com/gtag/js?id=UA-120581100-2');script.setAttribute('type', 'text/javascript');script.setAttribute('async', true);script.addEventListener('load', function () {window.dataLayer = window.dataLayer || [];window.gtag = function gtag () {dataLayer.push(arguments);};gtag('js', new Date());gtag('config', 'UA-120581100-2');});document.head.appendChild(script);}window.addEventListener('load', function () {if (window.localStorage.getItem('cookie-consent') === 'accepted') {activateAnalytics();} else if (!window.localStorage.getItem('cookie-consent')) {document.getElementById('cookie-warning').classList.add('show');}});</script><meta property="og:description" content="Koncerter"><meta name="description" content="Koncerter"><meta property="og:url" content="https://aufori.dk/koncerter"><link rel="canonical" href="https://aufori.dk/koncerter"><script type="text/javascript" src="/modules/navigation1723996443989.js"></script><script type="text/javascript" src="/modules/cookie1723996443989.js"></script><style>/*.concerts {
+  width: 100%;
+  margin-top: 10rem;
+  font-size: 2rem;
+}*/
+
+main {
+  padding-top: 8rem;
+}
+
+body {
+	background-image: url(/images/raat_papir31723996443989.png);
+	background-size: cover;
+  width: 100rem;
+  margin: 0 auto;
+  font-size: 100%;
+}
+
+.koncert-container .head {
+	width: 100%;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	height: 15em;
+}
+
+.koncert-container .head img {
+	width: 150px;
+	-webkit-transform: rotate(270deg);
+	        transform: rotate(270deg);
+	margin-bottom: -11rem;
+    margin-right: 4rem;
+}
+
+/*.art-container div img{
+	height: 30rem;
+	rotate: 90deg;
+}*/
+
+.koncert-container{
+	padding: 2rem;
+	/*background-color: rgba(69, 69, 69, .4);*/
+	width: 900px;
+	margin: auto;
+	border-radius: 5px;
+	font-family: Source Sans Pro, sans-serif;
+}
+
+.koncert-container p{
+	margin: 0 0 10px 0;
+	font-size: 4em;
+}
+
+.koncerttabel{
+	margin: 0 auto;
+	width: 850px;
+	z-index: 1;
+	/*background-color: orange;*/
+	border-collapse: collapse;
+	border-spacing: 0 0;
+	margin-top: 2rem;
+}
+
+
+tr {
+	height: 12rem;
+	font-size: 1.8rem;
+	border-top: 1px solid black;
+}
+
+tr:last-child {
+	border-bottom: 1px solid black;
+}
+
+td {
+	width: 25%;
+	z-index: 10;
+}
+
+/*tr>td:first-child{
+	width: 20%;
+}*/
+
+tr>td:nth-child(2) {
+	text-align: center;
+	padding-right: 10px;
+}
+
+tr>td:nth-child(3) {
+	text-align: left;
+	padding-left: 3rem;
+	/*width: 30%;*/
+}
+
+.dato {
+	background-color: #f3f4f6;
+	border-radius: 10px;
+	height: 7rem;
+	width: 10rem;
+	display: grid;
+	font-size: 1.7rem;
+	margin-left: 2rem;
+	z-index: 10;
+	color: black;
+	box-shadow: 0px 0px 0px 2px #000000;
+	text-shadow: none !important;
+}
+
+.oeverst {
+	margin: 0 auto;
+	align-self: end;
+}
+
+.nederst {
+	margin: 0 auto;
+}
+
+
+.mereinfo a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	letter-spacing: 0.1rem;
+	font-size: 1.3rem;
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	border: 2rem;
+	border: 2px solid black;
+	padding: 1.5rem 0;
+	border-radius: 1px;
+	text-shadow: none;
+}
+
+.mereinfo a:hover{
+	background-color: white;
+	box-shadow: -1px 9px 36px -20px rgba(0,0,0,0.45);
+	color:black;
+
+}
+
+.mereinfo a:active {
+	border: 1px;
+}
+
+.soon{
+	padding-top: 5rem;
+	font-size: 18px;
+	text-align: center;
+	font-style: italic;
+	color: gray;
+}
+
+/*///////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 1000px) {
+	main{
+		padding-top: 0rem !important;
+	}
+}
+
+@media screen and (max-width: 950px) {
+  .art-container, .sensommertur{
+  	width: 700px;
+  }
+
+  .koncert-container{
+  	max-width: 650px;
+  }
+
+  .koncerttabel {
+    width: 600px;
+  }
+  .dato{
+  	font-size: 1.7rem;
+  }
+  tr {
+  	font-size: 1.6rem;
+  }
+  .head p {
+	  font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .art-container, .sensommertur{
+  	width: 400px;
+  }
+
+  .sensommertur{
+  	margin-top: -10rem;
+}
+
+  .koncert-container{
+  	max-width: 100%;
+	margin: 0;
+  }
+
+  .koncerttabel {
+    width: 100%;
+  }
+  .dato {
+  	width: 9rem;
+  	font-size: 1.5rem;
+	margin-left: 10px;
+  }
+  tr {
+  	font-size: 1.5rem;
+  }
+
+  .koncert-container .head {
+	  height: 10rem;
+	  padding: 0 7%;
+  }
+
+  .head p{
+	  font-size: 3em;
+  }
+
+.koncert-container .head img {
+	width: 90px;
+	margin-bottom: -7rem;
+    margin-right: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .art-container, .sensommertur{
+  	width: 300px;
+  }
+
+  .sensommertur {
+  	margin-top: -10rem;
+  }
+
+  tr {
+  	font-size: 1.4rem;
+  	height: 10rem;
+  }
+.mereinfo a{
+	width: 90%;
+	padding: 0.8rem 0;
+	font-size: 1.2rem;
+}
+  .dato {
+  	width: 6.5rem;
+  	font-size: 1.2rem;
+  	height: 5.5rem;
+  }
+  tr>td:nth-child(2) {
+	text-align: left;
+}
+
+.head p{
+	font-size: 2.4em;
+}
+
+.koncert-container .head {
+	height: 10em;
+}
+
+.koncert-container p {
+	margin: 0;
+}
+
+.koncert-container .head img {
+  width: 70px;
+  margin-bottom: -7rem;
+  margin: 0 0 -55px 0;
+}
+
+tr>td:nth-child(3) {
+	padding-left: 2rem;
+}
+}
+
+@media screen and (max-width: 500px) {
+	tr {
+		font-size: 1.2rem;
+	}
+
+	tr>td:nth-child(2) {
+		text-align: center;
+	}
+
+	.koncert-container {
+		padding: 1rem;
+	}
+}@-ms-viewport{
+  width: device-width;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  font-family: 'Source Serif Pro', serif;
+  padding-bottom: 25rem;
+  box-sizing: border-box;
+  background-color: #fffffc;
+  font-size: 100%;
+}
+
+html {
+  font-size: 10px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+main::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Source Serif Pro', serif;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    width: 100% !important;
+  }
+}
+nav {
+  font-size: 2.5rem;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  line-height: 3rem;
+  padding: 4rem 0 2rem;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "level-1-left level-1-right"
+    "level-2 level-2";
+  justify-content: end;
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav .nav-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  overflow: hidden;
+  transition: height 0.3s ease-out;
+}
+
+nav .nav-row.level-1.left {
+  grid-area: level-1-left;
+}
+
+nav .nav-row.level-1.right {
+  grid-area: level-1-right;
+}
+
+nav .nav-row.level-1 {
+  height: 3.5rem;
+  align-items: flex-end;
+}
+
+nav .nav-row.level-2 {
+  grid-area: level-2;
+  height: 0;
+  align-items: flex-start;
+}
+
+nav.show-dropdown .nav-row.level-1 {
+  height: 0;
+}
+
+nav.show-dropdown .nav-row.level-2 {
+  height: 3.5rem;
+}
+
+nav .nav-row > * {
+  color: #1d1d1d;
+  text-decoration: none;
+  padding: 0 0.6rem 0.2rem;
+  border-bottom: 1px solid transparent;
+  margin-left: 4rem;
+  cursor: pointer;
+}
+
+nav .nav-row > *:visited {
+  color: #1d1d1d;
+}
+
+nav .nav-row > *:hover {
+  border-color: #bebebe;
+}
+
+nav .nav-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    background: transparent;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-out;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav .hide-on-mobile {
+    display: none;
+  }
+
+  nav.open {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    pointer-events: all;
+  }
+
+  nav .nav-row {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    opacity: 0;
+    position: relative;
+    -webkit-transform: translateY(-5vh);
+            transform: translateY(-5vh);
+    transition: all 0.2s ease-out;
+  }
+
+  nav .nav-row.level-1 {
+    height: auto;
+    align-items: center;
+  }
+
+  nav .nav-row.level-2 {
+    align-items: center;
+  }
+
+  nav.show-dropdown .nav-row.level-2 {
+    height: auto;
+  }
+
+  nav.open > .nav-row {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+
+  nav .nav-row > * {
+    margin: 1rem 0;
+  }
+
+  nav .nav-toggle {
+    display: block;
+    position: absolute;
+    background-image: url(/images/menu1723996443989.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    top: 1rem;
+    left: 1rem;
+    width: 4rem;
+    height: 4rem;
+    opacity: 0.5;
+    outline: none;
+    z-index: 1000;
+    pointer-events: all;
+  }
+
+  nav.open .nav-toggle {
+    background-image: url(/images/close1723996443988.png);
+    -webkit-filter: none;
+            filter: none;
+    opacity: 0.5 !important;
+  }
+}
+
+@media print {
+  nav {
+    display: none;
+  }
+}
+footer {
+  text-align: center;
+  padding: 1rem 0 12rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer a {
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+footer img {
+  width: 4rem;
+  height: 4rem;
+  opacity: 0.3;
+  transition: opacity 0.2s ease-out;
+}
+
+footer img:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  footer img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+
+@media print {
+  footer {
+    display: none;
+  }
+}
+@-webkit-keyframes slide-in {
+  0% {
+    -webkit-transform: translate3d(0, calc(150% + 10rem), 0);
+            transform: translate3d(0, calc(150% + 10rem), 0);
+  }
+
+  50% {
+    -webkit-transform: translate3d(0, calc(150% + 10rem), 0);
+            transform: translate3d(0, calc(150% + 10rem), 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    -webkit-transform: translate3d(0, calc(150% + 10rem), 0);
+            transform: translate3d(0, calc(150% + 10rem), 0);
+  }
+
+  50% {
+    -webkit-transform: translate3d(0, calc(150% + 10rem), 0);
+            transform: translate3d(0, calc(150% + 10rem), 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+#cookie-warning {
+  display: none;
+  width: 80rem;
+  left: calc(50% - 40rem);
+  bottom: 1rem;
+  position: fixed;
+  background-color: #fffffc;
+  box-shadow: 0px 0px 10px 0px #aaa;
+  padding: 1.5rem;
+  border-radius: 2px;
+  z-index: 50;
+}
+
+#cookie-warning.show {
+  display: block;
+  -webkit-animation: slide-in 2s ease-out;
+          animation: slide-in 2s ease-out;
+}
+
+#cookie-warning .cookie-greeting {
+  display: flex;
+  align-items: center;
+}
+
+#cookie-warning .spacer {
+  flex: 1 0 auto;
+}
+
+#cookie-warning.open .cookie-greeting {
+  display: none;
+}
+
+#cookie-warning .cookie-greeting button:not(.cookie-accept) {
+  margin-left: 0.5rem;
+  background: transparent;
+  border: 0;
+  color: #759f5a;
+  font-size: 1.6rem;
+  padding: 0;
+}
+
+#cookie-warning .cookie-text {
+  display: none;
+}
+
+#cookie-warning.open .cookie-text {
+  display: block;
+}
+
+#cookie-warning p {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+#cookie-warning .cookie-buttons {
+  display: none;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#cookie-warning.open .cookie-buttons {
+  display: flex;
+}
+
+#cookie-warning .cookie-buttons > button,
+#cookie-warning .cookie-greeting .cookie-accept {
+  margin-left: 0.5rem;
+  padding: 0.6rem 0;
+  width: 10rem;
+  font-size: 2rem;
+  font-family: 'Amatic SC', cursive;
+  border: 0;
+}
+
+#cookie-warning .cookie-accept {
+  background-color: #759f5a;
+}
+
+#cookie-warning .cookie-reject {
+  background-color: #ddddd7;
+}
+
+
+@media screen and (max-width: 945px){
+  #cookie-warning{
+    width: 70rem;
+    left: calc(50% - 35rem)
+  }
+}
+
+@media screen and (max-width: 945px){
+  #cookie-warning{
+    width: 64rem;
+    left: calc(50% - 32rem)
+  }
+}
+
+@media screen and (max-width: 745px){
+  #cookie-warning{
+    width: 48rem;
+    left: calc(50% - 24rem)
+  }
+}
+
+@media screen and (max-width: 573px){
+  #cookie-warning{
+    width: 40rem;
+    left: calc(50% - 20rem)
+  }
+}
+
+@media screen and (max-width: 480px){
+  #cookie-warning{
+    width: 30rem;
+    left: calc(50% - 15rem)
+  }
+
+  #cookie-warning p, #cookie-warning .cookie-greeting button{
+    font-size: 1.3rem;
+  }
+}
+</style></head><body><nav id="menu" onmouseleave="hideMusicDropdown(1000)" onmouseenter="clearDropdownTimeout()"><button id="nav-toggle" class="nav-toggle"></button><div class="nav-row level-1 left"><a href="/">Hjem</a><a href="/om_os">Om os</a><a href="/tekster">Tekster og Akkorder</a><a href="/koncerter">Koncerter</a><a href="/kontakt">Kontakt</a><!--<span onclick="showMusicDropdown()">Musik</span>--></div><!--<div class="nav-row level-2"><span onclick="hideMusicDropdown()">&larr;</span><a href="/tekster">Tekster og Akkorder</a><a href="/diskografi">Diskografi</a><a href="/video">Video</a><a href="/noder">Noder</a></div><div class="nav-row level-1 right"><a href="/tekster">Tekster og Akkorder</a><a href="/koncerter">Koncerter</a><a href="/kontakt">Kontakt</a>--></div></nav><main><div class="koncert-container"><div class="head"><p>Koncerter 2024</p><img src="/images/alberte_blomst11723996443988.png"></div><!--<table class="koncerttabel"><tbody><tr><td><div class="dato"><div class="oeverst">15.</div><div class="nederst">august</div></div></td><td>Naturdestination Skovsgaard</td><td>Rudkøbing</td><td class="mereinfo"><a href="https://billetto.dk/e/florfest-2024-billetter-903528?fbclid=IwAR3Ulhn-8_F0GAC_OMxzvPlHQuH8Xx3WmsQh7VS8z_M_j32FojM8rvYlHY8" target="_blank">Mere info</a></td></tr><tr><td><div class="dato"><div class="oeverst">16.</div><div class="nederst">august</div></div></td><td>Spoken Word Festival</td><td>Odense</td><td class="mereinfo"><a href="https://www.yourticket.dk/?ytroute=%2Farrangementer%2F35876%2Fkoncert-poesi-doetre-aufori-filuka-roeskva-linnet-haabungdom-spoken24%2F&fbclid=IwZXh0bgNhZW0CMTAAAR1j6eVKloM04ebiOL4Shw18FLK88U5DKyRQN57jH2cjMo18l-JmNKtGJqg_aem_ZmFrZWR1bW15MTZieXRlcw" target="_blank">Mere info</a></td></tr><tr><td><div class="dato"><div class="oeverst">24.</div><div class="nederst">september</div></div></td><td>Forbrændningen</td><td>Albertslund</td><td class="mereinfo"><a href="https://forbraendingen.dk/events/aufori/" target="_blank">Mere info</a></td></tr><tr><td><div class="dato"><div class="oeverst">6.</div><div class="nederst">oktober</div></div></td><td>Posten</td><td>Odense</td><td class="mereinfo"><a href="https://www.postenlive.dk/event/aufori/" target="_blank">Mere info</a></td></tr><tr><td><div class="dato"><div class="oeverst">13.</div><div class="nederst">oktober</div></div></td><td>Lille Vega</td><td>København</td><td class="mereinfo"><a href="https://www.ticketmaster.dk/event/518477?language=da-dk&camefrom=vegadk&brand=dk_vega" target="_blank">Mere info</a></td></tr>--></tbody></table><div class="soon">~~ Flere koncerter på vej! ~~</div></div></main><footer><a href="https://www.facebook.com/AUFORImusik/" target="_blank" rel="noopener noreferrer"><img src="/images/facebook_logo1723996443988.png" alt="Facebook"></a><a href="https://www.instagram.com/aufori/" target="_blank" rel="noopener noreferrer"><img src="/images/instagramlogo1723996443988.png" alt="Instagram"></a><a href="https://open.spotify.com/artist/2yAzTbsX30WKUFmCfWiaIT?si=WzUc5ODpQeKkDLYP3Hq99w" target="_blank" rel="noopener noreferrer"><img src="/images/spotifylogo1723996443989.png" alt="Spotify"></a></footer><div id="cookie-warning"><p class="cookie-greeting">Hej! Må vi bruge cookies?<button class="cookie-readmore" onclick="cookieReadmore()">Læs mere</button><span class="spacer"></span><button class="cookie-accept" onclick="acceptCookies()">Ok</button></p><p class="cookie-text">Her på siden vil vi gerne bruge cookies til at tracke din adfærd. Alt det data vi har tænkt os at indsamle er anonymiseret og vi sælger ikke din data videre og tjener ikke penge på den. Vi ved hverken hvad du hedder eller hvor du bor 🌞 Vi bruger udelukkende dataen for at lære hvordan du navigerer rundt på siden, så vi kan gøre brugeroplevelsen bedre. Du bliver ikke tracket på nogen måde før du har klikket <i>OK</i> nedenfor.</p><div class="cookie-buttons"><button class="cookie-reject" onclick="rejectCookies()">Nej tak</button><button class="cookie-accept" onclick="acceptCookies()">Ok</button></div></div></body></html>

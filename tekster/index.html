@@ -1,0 +1,834 @@
+<!DOCTYPE html><html><head><title>AUFORI: Tekster</title><meta property="og:title" content="AUFORI's hjemmeside"><meta property="og:image" content="https://aufori.dk/images/Logo21723996443988.jpg"><meta property="og:type" content="website"><link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700&display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet"><link rel="icon" type="image/png" href="/images/browserlogo1723996443988.png"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#fffffc"><meta name="format-detection" content="telephone=no"><meta charset="utf-8"><!-- Global site tag (gtag.js) - Google Analytics --><script type="text/javascript">function gtag () {return null}function activateAnalytics () {const script = document.createElement('script');script.setAttribute('src', 'https://www.googletagmanager.com/gtag/js?id=UA-120581100-2');script.setAttribute('type', 'text/javascript');script.setAttribute('async', true);script.addEventListener('load', function () {window.dataLayer = window.dataLayer || [];window.gtag = function gtag () {dataLayer.push(arguments);};gtag('js', new Date());gtag('config', 'UA-120581100-2');});document.head.appendChild(script);}window.addEventListener('load', function () {if (window.localStorage.getItem('cookie-consent') === 'accepted') {activateAnalytics();} else if (!window.localStorage.getItem('cookie-consent')) {document.getElementById('cookie-warning').classList.add('show');}});</script><script type="text/javascript" src="/tekster/tekster1723996443989.js"></script><meta property="og:description" content="Tekster"><meta name="description" content="Tekster"><meta property="og:url" content="https://aufori.dk/tekster"><link rel="canonical" href="https://aufori.dk/tekster"><script type="text/javascript" src="/modules/navigation1723996443989.js"></script><script type="text/javascript" src="/modules/player1723996443989.js"></script><script type="text/javascript" src="/modules/cookie1723996443989.js"></script><style>@-ms-viewport{
+  width: device-width;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  font-family: 'Source Serif Pro', serif;
+  padding-bottom: 25rem;
+  box-sizing: border-box;
+  background-color: #fffffc;
+  font-size: 100%;
+}
+
+html {
+  font-size: 10px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+main::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Source Serif Pro', serif;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    width: 100% !important;
+  }
+}
+@font-face {
+  font-family: Music;
+  src: url(/tekster/music-font1723996443989.ttf);
+}
+
+body{
+  background-image: url(/images/raat_papir41723996443989.png);
+  background-size: auto 100vh;
+  width: 100rem;
+  margin: 0 auto;
+  font-size: 100%;
+}
+
+main {
+  padding-top: 8rem;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: 1fr 40rem 1fr;
+  margin: 4rem 0;
+}
+
+.column:first-child {
+  margin-top: 10rem;
+}
+
+.text-track {
+  grid-column: 2 / 4;
+}
+
+.column > .img-track > img {
+  width: 150px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px #ddd;
+  margin: 3.8rem 3.8rem 0 0;
+}
+
+.column > .img-track {
+  grid-column: 1;
+  justify-self: end;
+}
+
+.blomst {
+  position: absolute;
+}
+
+.blomst img {
+  width: 100%;
+}
+
+.blomst1 {
+  width: 200px;
+  right: 40px;
+}
+
+.blomst2 {
+  width: 170px;
+  right: 40px;
+  margin-top: 42rem;
+}
+
+.blomst3 {
+  width: 300px;
+  right: -10px;
+  margin-top: -42rem;
+}
+
+.blomst4 {
+  width: 200px;
+  right: 20px;
+  margin-top: -42rem;
+}
+
+.blomst5 {
+  width: 200px;
+  right: 20px;
+  margin-top: -25rem;
+}
+
+.blomsta {
+  width: 200px;
+  right: 40px;
+  margin-top: 50rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+.text-track button {
+  background-color: #f8f7f3;
+  box-shadow: 0 0.2rem 1rem 0px #ddd;
+  border: 0;
+  outline: none;
+  margin-right: 1rem;
+}
+
+.text-track button > img {
+  height: 1.8rem;
+}
+
+@-webkit-keyframes display-chord {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes display-chord {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.text-track.show .chord-container {
+  height: 4.8rem;
+  margin-top: 0.4rem;
+}
+
+.text-track.show p {
+  margin: 2.5rem 0;
+}
+
+.text-track.show p.chord-container.independent {
+  margin: 2.5rem 0 3rem;
+}
+
+.text-track.show .chord {
+  display: inline;
+  -webkit-animation: display-chord 0.4s ease-out;
+          animation: display-chord 0.4s ease-out;
+}
+
+.text-track.show .chord-container.independent {
+  height: 2.2rem;
+  display: block;
+}
+
+.text-track.hide .chord-container {
+  -webkit-animation: shrink-container 0.2s ease-out;
+          animation: shrink-container 0.2s ease-out;
+}
+
+
+.chord {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  padding: 0 0.5rem;
+  line-height: 2rem;
+  background-color: #ddd;
+  box-shadow: 0px 0px 10px 0px #ddd;
+  position: absolute;
+  top: 0;
+  left: -50%;
+  white-space: nowrap;
+  padding-top: 0.3em;
+  display: none;
+}
+
+.chord-container {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  position: relative;
+  height: 2.2rem;
+  transition: height 0.2s ease-out;
+}
+
+.chord-track {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: -50%;
+}
+
+.chord-track > .chord {
+  position: static;
+  margin-right: 0.5rem;
+}
+
+.chord-container.independent {
+  display: none;
+  height: 0;
+}
+
+.chord-container.independent .chord-track {
+  position: static;
+}
+
+sup {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.3em;
+}
+
+.sharp::after {
+  content: "G";
+  font-family: Music;
+}
+
+.flat::after {
+  content: "H";
+  font-family: Music;
+}
+
+@media screen and (max-width: 767px) {
+  .column {
+    width: 100%;
+    margin: 0;
+    padding: 0 5rem;
+    display: block;
+  }
+
+  .column > .img-track {
+    padding-bottom: 0;
+  }
+
+  .column:first-child {
+  margin-top: 0;
+}
+
+  .column > .img-track > img {
+    position: static;
+    margin: 4rem 0 0;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .blomst img, .blomst2 img, .blomst3 img, .blomst4 img, .blomst5 img, .blomsta img{
+  display: none !important;
+}
+
+  .blomst, .blomst2, .blomst3, .blomst4, .blomst5, .blomsta {
+    display: none !important;
+  }
+
+}
+
+
+@media screen and (max-width: 367px) {
+  .column > .img-track > img {
+    width: 100px;
+    margin: 3rem 0 0;
+  }
+}
+
+@media print {
+  .blomst {
+    display: none;
+  }
+
+  .column {
+    grid-template-columns: -webkit-min-content -webkit-max-content;
+    grid-template-columns: min-content max-content;
+    margin: 0;
+    padding: 5vh;
+    height: 100vh;
+  }
+
+  .column:first-child {
+    margin: 0;
+  }
+
+  .text-track {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    grid-column: 2;
+    height: 90vh;
+  }
+
+  .text-track button {
+    display: none;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  body {
+    padding-bottom: 0;
+    width: 100%;
+    background: none;
+    margin: 0;
+  }
+
+  p {
+    width: 25vw;
+    padding-right: 3rem;
+  }
+
+  h1 {
+    width: 25vw;
+  }
+
+  .column > .img-track > img {
+    width: 10vw;
+  }
+}
+nav {
+  font-size: 2.5rem;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  line-height: 3rem;
+  padding: 4rem 0 2rem;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "level-1-left level-1-right"
+    "level-2 level-2";
+  justify-content: end;
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav .nav-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  overflow: hidden;
+  transition: height 0.3s ease-out;
+}
+
+nav .nav-row.level-1.left {
+  grid-area: level-1-left;
+}
+
+nav .nav-row.level-1.right {
+  grid-area: level-1-right;
+}
+
+nav .nav-row.level-1 {
+  height: 3.5rem;
+  align-items: flex-end;
+}
+
+nav .nav-row.level-2 {
+  grid-area: level-2;
+  height: 0;
+  align-items: flex-start;
+}
+
+nav.show-dropdown .nav-row.level-1 {
+  height: 0;
+}
+
+nav.show-dropdown .nav-row.level-2 {
+  height: 3.5rem;
+}
+
+nav .nav-row > * {
+  color: #1d1d1d;
+  text-decoration: none;
+  padding: 0 0.6rem 0.2rem;
+  border-bottom: 1px solid transparent;
+  margin-left: 4rem;
+  cursor: pointer;
+}
+
+nav .nav-row > *:visited {
+  color: #1d1d1d;
+}
+
+nav .nav-row > *:hover {
+  border-color: #bebebe;
+}
+
+nav .nav-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    background: transparent;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-out;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav .hide-on-mobile {
+    display: none;
+  }
+
+  nav.open {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    pointer-events: all;
+  }
+
+  nav .nav-row {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    opacity: 0;
+    position: relative;
+    -webkit-transform: translateY(-5vh);
+            transform: translateY(-5vh);
+    transition: all 0.2s ease-out;
+  }
+
+  nav .nav-row.level-1 {
+    height: auto;
+    align-items: center;
+  }
+
+  nav .nav-row.level-2 {
+    align-items: center;
+  }
+
+  nav.show-dropdown .nav-row.level-2 {
+    height: auto;
+  }
+
+  nav.open > .nav-row {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+
+  nav .nav-row > * {
+    margin: 1rem 0;
+  }
+
+  nav .nav-toggle {
+    display: block;
+    position: absolute;
+    background-image: url(/images/menu1723996443989.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    top: 1rem;
+    left: 1rem;
+    width: 4rem;
+    height: 4rem;
+    opacity: 0.5;
+    outline: none;
+    z-index: 1000;
+    pointer-events: all;
+  }
+
+  nav.open .nav-toggle {
+    background-image: url(/images/close1723996443988.png);
+    -webkit-filter: none;
+            filter: none;
+    opacity: 0.5 !important;
+  }
+}
+
+@media print {
+  nav {
+    display: none;
+  }
+}
+.player {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0px 0px 10px 0px #ccc;
+  background-color: #fff;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  transition: -webkit-transform .5s ease-out;
+  transition: transform .5s ease-out;
+  transition: transform .5s ease-out, -webkit-transform .5s ease-out;
+  z-index: 10000000000000;
+}
+
+.player-body {
+  margin: 0 auto;
+  width: 100rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  height: 6rem;
+}
+
+.player .song-title {
+  flex-grow: 0;
+  margin: 0 1.6rem 0 0;
+  font-weight: bold;
+  max-width: 25vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.player .song-time {
+  flex-grow: 1;
+  margin: 0;
+}
+
+.player .song-album {
+  width: 4rem;
+  margin-right: 1.6rem;
+  border-radius: 3px;
+}
+
+.player .song-album.hidden {
+  display: none;
+}
+
+.player .player-button {
+  flex-grow: 0;
+  margin: 0;
+  opacity: 1;
+  pointer-events: all;
+  width: 4.4rem;
+  transition: width .5s ease-out, opacity .2s ease-out;
+}
+
+.player .player-button.hidden {
+  opacity: 0;
+  pointer-events: none;
+  width: 0;
+}
+
+.player-button button {
+  background: transparent;
+  border: 0;
+  padding: 1.6rem 1.6rem 1.6rem 0;
+  outline: none;
+}
+
+.player-button button img {
+  height: 2.5rem;
+}
+
+.player-button .hidden {
+  display: none;
+}
+
+.player.hidden {
+  -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0)
+}
+
+@media screen and (max-width: 1000px) {
+  .player-body {
+    width: 100%;
+    padding-left: 1.6rem;
+  }
+}
+
+@media print {
+  .player {
+    display: none;
+  }
+}
+footer {
+  text-align: center;
+  padding: 1rem 0 12rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer a {
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+footer img {
+  width: 4rem;
+  height: 4rem;
+  opacity: 0.3;
+  transition: opacity 0.2s ease-out;
+}
+
+footer img:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  footer img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+
+@media print {
+  footer {
+    display: none;
+  }
+}
+@-webkit-keyframes slide-in {
+  0% {
+    -webkit-transform: translate3d(0, calc(150% + 10rem), 0);
+            transform: translate3d(0, calc(150% + 10rem), 0);
+  }
+
+  50% {
+    -webkit-transform: translate3d(0, calc(150% + 10rem), 0);
+            transform: translate3d(0, calc(150% + 10rem), 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    -webkit-transform: translate3d(0, calc(150% + 10rem), 0);
+            transform: translate3d(0, calc(150% + 10rem), 0);
+  }
+
+  50% {
+    -webkit-transform: translate3d(0, calc(150% + 10rem), 0);
+            transform: translate3d(0, calc(150% + 10rem), 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+#cookie-warning {
+  display: none;
+  width: 80rem;
+  left: calc(50% - 40rem);
+  bottom: 1rem;
+  position: fixed;
+  background-color: #fffffc;
+  box-shadow: 0px 0px 10px 0px #aaa;
+  padding: 1.5rem;
+  border-radius: 2px;
+  z-index: 50;
+}
+
+#cookie-warning.show {
+  display: block;
+  -webkit-animation: slide-in 2s ease-out;
+          animation: slide-in 2s ease-out;
+}
+
+#cookie-warning .cookie-greeting {
+  display: flex;
+  align-items: center;
+}
+
+#cookie-warning .spacer {
+  flex: 1 0 auto;
+}
+
+#cookie-warning.open .cookie-greeting {
+  display: none;
+}
+
+#cookie-warning .cookie-greeting button:not(.cookie-accept) {
+  margin-left: 0.5rem;
+  background: transparent;
+  border: 0;
+  color: #759f5a;
+  font-size: 1.6rem;
+  padding: 0;
+}
+
+#cookie-warning .cookie-text {
+  display: none;
+}
+
+#cookie-warning.open .cookie-text {
+  display: block;
+}
+
+#cookie-warning p {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+#cookie-warning .cookie-buttons {
+  display: none;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#cookie-warning.open .cookie-buttons {
+  display: flex;
+}
+
+#cookie-warning .cookie-buttons > button,
+#cookie-warning .cookie-greeting .cookie-accept {
+  margin-left: 0.5rem;
+  padding: 0.6rem 0;
+  width: 10rem;
+  font-size: 2rem;
+  font-family: 'Amatic SC', cursive;
+  border: 0;
+}
+
+#cookie-warning .cookie-accept {
+  background-color: #759f5a;
+}
+
+#cookie-warning .cookie-reject {
+  background-color: #ddddd7;
+}
+
+
+@media screen and (max-width: 945px){
+  #cookie-warning{
+    width: 70rem;
+    left: calc(50% - 35rem)
+  }
+}
+
+@media screen and (max-width: 945px){
+  #cookie-warning{
+    width: 64rem;
+    left: calc(50% - 32rem)
+  }
+}
+
+@media screen and (max-width: 745px){
+  #cookie-warning{
+    width: 48rem;
+    left: calc(50% - 24rem)
+  }
+}
+
+@media screen and (max-width: 573px){
+  #cookie-warning{
+    width: 40rem;
+    left: calc(50% - 20rem)
+  }
+}
+
+@media screen and (max-width: 480px){
+  #cookie-warning{
+    width: 30rem;
+    left: calc(50% - 15rem)
+  }
+
+  #cookie-warning p, #cookie-warning .cookie-greeting button{
+    font-size: 1.3rem;
+  }
+}
+</style></head><body><nav id="menu" onmouseleave="hideMusicDropdown(1000)" onmouseenter="clearDropdownTimeout()"><button id="nav-toggle" class="nav-toggle"></button><div class="nav-row level-1 left"><a href="/">Hjem</a><a href="/om_os">Om os</a><a href="/tekster">Tekster og Akkorder</a><a href="/koncerter">Koncerter</a><a href="/kontakt">Kontakt</a><!--<span onclick="showMusicDropdown()">Musik</span>--></div><!--<div class="nav-row level-2"><span onclick="hideMusicDropdown()">&larr;</span><a href="/tekster">Tekster og Akkorder</a><a href="/diskografi">Diskografi</a><a href="/video">Video</a><a href="/noder">Noder</a></div><div class="nav-row level-1 right"><a href="/tekster">Tekster og Akkorder</a><a href="/koncerter">Koncerter</a><a href="/kontakt">Kontakt</a>--></div></nav><main><div class="column"> <!-- --BLØDE UNIVERSER -- BLØDE UNIVERSER -- BLØDE UNIVERSER-- --><div class="img-track"><img src="/images/blode_universer1723996443988.jpg"></div><div class="text-track"><h1>Bløde Universer</h1><button class="play-song-btn" onclick="playSong(this, '/audio/blode_universer1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:12voB7WS2o7FPzM0J6yLIF'"><img src="/images/spotifysmall1723996443989.png"> </button><p><span class="chord-container">D<span class="chord">F<span class="sharp"></span>m</span></span>rømmer om sted<span class="chord-container">e<span class="chord">H7</span></span>r der<br> <span class="chord-container">i<span class="chord">D</span></span>kke eksiste<span class="chord-container">r<span class="chord">A</span></span>er<br><span class="chord-container">O<span class="chord">F<span class="sharp"></span>m</span></span>m bløde uni<span class="chord-container">v<span class="chord">H7</span></span>erser<br><span class="chord-container">m<span class="chord">D</span></span>ed lysende id<span class="chord-container">é<span class="chord">A</span></span>er<br></p><p><span class="chord-container">J<span class="chord">F<span class="sharp"></span>m</span></span>eg elsker med en ver<span class="chord-container">d<span class="chord">H7</span></span>en<br>s<span class="chord-container">o<span class="chord">D</span></span>m jeg ikke f<span class="chord-container">o<span class="chord">A</span></span>rstår<br><span class="chord-container">M<span class="chord">F<span class="sharp"></span>m</span></span>en som jeg a<span class="chord-container">l<span class="chord">H7/e<span class="flat"></span></span></span>ligevel<br><span class="chord-container">h<span class="chord">D</span></span>ar levet i i <span class="chord-container">2<span class="chord">A</span></span>0 år<br></p><p><span class="chord-container">M<span class="chord">F<span class="sharp"></span>m</span></span>ed puder og s<span class="chord-container">k<span class="chord">H7</span></span>yer<br><span class="chord-container">v<span class="chord">D</span></span>i kan hoppe <span class="chord-container">p<span class="chord">A</span></span>å<br><span class="chord-container">M<span class="chord">F<span class="sharp"></span>m</span></span>ed farver, og mønstre og fo<span class="chord-container">r<span class="chord">H7</span></span>mer<br><span class="chord-container">a<span class="chord">D</span></span>lt i pastelb<span class="chord-container">l<span class="chord">A</span></span>å<br></p><p><span class="chord-container">J<span class="chord">F<span class="sharp"></span>m</span></span>eg elsker med en ver<span class="chord-container">d<span class="chord">H7</span></span>en<br>s<span class="chord-container">o<span class="chord">D</span></span>m jeg ikke f<span class="chord-container">o<span class="chord">A</span></span>rstår<br><span class="chord-container">M<span class="chord">F<span class="sharp"></span>m</span></span>en som jeg a<span class="chord-container">l<span class="chord">H7/e<span class="flat"></span></span></span>ligevel<br><span class="chord-container">h<span class="chord">D</span></span>ar levet i i <span class="chord-container">2<span class="chord">A</span></span>0 år<br></p><p><span class="chord-container">M<span class="chord">F<span class="sharp"></span>m</span></span>ine triste t<span class="chord-container">a<span class="chord">H7</span></span>nker<br><span class="chord-container">d<span class="chord">D</span></span>e blir’ til sole og sæb<span class="chord-container">e<span class="chord">A</span></span>bobler<br><span class="chord-container">S<span class="chord">F<span class="sharp"></span>m</span></span>om smelter ned i b<span class="chord-container">l<span class="chord">H7</span></span>omster,<br><span class="chord-container">v<span class="chord">D</span></span>i plukker når først vi f<span class="chord-container">l<span class="chord">A</span></span>yver<br></p><p><span class="chord-container">J<span class="chord">F<span class="sharp"></span>m</span></span>eg elsker med en ver<span class="chord-container">d<span class="chord">H7</span></span>en<br>s<span class="chord-container">o<span class="chord">D</span></span>m jeg ikke f<span class="chord-container">o<span class="chord">A</span></span>rstår<br><span class="chord-container">M<span class="chord">F<span class="sharp"></span>m</span></span>en som jeg a<span class="chord-container">l<span class="chord">H7/e<span class="flat"></span></span></span>ligevel<br><span class="chord-container">h<span class="chord">D</span></span>ar levet i i <span class="chord-container">2<span class="chord">A</span></span>0 år<br></p></div></div><div class="column"> <!-- --BLÅ MÆRKER -- BLÅ MÆRKER -- BLÅ MÆRKER-- --><div class="img-track"><img src="/images/blaa-maerker1723996443988.jpg"></div><div class="text-track"><div class="blomst blomst1"><img src="/images/alberte_blomst41723996443988.png"></div><h1>Blå Mærker</h1><button class="play-song-btn" onclick="playSong(this, '/audio/blaa_maerker1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:578rG2oqDLeYKW7n4r89wp'"><img src="/images/spotifysmall1723996443989.png"></button><p>H<span class="chord-container">e<span class="chord">E<sup>maj7</sup></span></span>lle for at vise dig<br>E<span class="chord-container">n<span class="chord">H<sup>maj7</sup></span></span>den af en motorvej<br>H<span class="chord-container">e<span class="chord">E<sup>maj7</sup></span></span>r går vejen ud i to<br>V<span class="chord-container">a<span class="chord">H<sup>maj7</sup></span></span>ndretur med rustne sko<br></p><p>V<span class="chord-container">i<span class="chord">E<sup>maj7</sup></span></span>l du se min vabelhæl?<br>S<span class="chord-container">o<span class="chord">H<sup>maj7</sup></span></span>mmersår og skrammer?<br>J<span class="chord-container">e<span class="chord">E<sup>maj7</sup></span></span>g har været på besøg<br>I<span class="chord-container">&nbsp;<span class="chord">H<sup>maj7</sup></span></span>skovens diskoramme<span class="chord-container">r<span class="chord-track"><span class="chord">H<sup>maj7</sup></span> <span class="chord">G<span class="sharp"></span>m<sup>6</sup></span></span></span><br></p><p>H<span class="chord-container">a<span class="chord-track"><span class="chord">A<sup>maj9</sup></span><span class="chord">G<span class="sharp"></span>m<sup>7</sup></span><span class="chord">H<sup>7</sup></span><span class="chord">E<sup>maj7</sup></span></span></span>vetrold med brækket tå<br>M<span class="chord-container">a<span class="chord-track"><span class="chord">A</span><span class="chord">C<span class="sharp"></span>m<sup>7</sup></span><span class="chord">G<span class="sharp"></span>m<sup>7</sup></span><span class="chord">A<sup>maj</sup></span></span></span>l du mine mærker blå<br>S<span class="chord-container">å<span class="chord-track"><span class="chord">A<sup>maj9</sup></span><span class="chord">G<span class="sharp"></span>m<sup>7</sup></span><span class="chord">H<sup>7</sup></span><span class="chord">E<sup>maj7</sup></span></span></span> ta’r jeg det første spring<br>O<span class="chord-container">v<span class="chord-track"><span class="chord">F<span class="sharp"></span>m<sup>7</sup></span><span class="chord">C<span class="sharp"></span>m<sup>7</sup></span><span class="chord">D</span><span class="chord">A</span></span></span>er åen til dit land<br></p><!-- INTERLUDE--><p class="chord-container independent"><span class="chord-track"><span class="chord">E<sup>maj7</sup></span><span class="chord">H<sup>maj7</sup></span><span class="chord">E<sup>maj7</sup></span><span class="chord">H<sup>maj7</sup></span></span></p><p>S<span class="chord-container">u<span class="chord">E<sup>maj7</sup></span></span>re tæ’r og jord på bær<br>T<span class="chord-container">r<span class="chord">H<sup>maj7</sup></span></span>oldedans under birketræer<br>K<span class="chord-container">l<span class="chord">E<sup>maj7</sup></span></span>atrer til jeg falder ned<br>L<span class="chord-container">a<span class="chord">H<sup>maj7</sup></span></span>nder i dit jordbærbed<br></p><p>D<span class="chord-container">u<span class="chord">E<sup>maj7</sup></span></span> har givet mig besked<br>D<span class="chord-container">u<span class="chord">H<sup>maj7</sup></span></span> bærer på en hemmelighed<br>S<span class="chord-container">k<span class="chord">E<sup>maj7</sup></span></span>revet på et blomsterblad <br>S<span class="chord-container">v<span class="chord">H<sup>maj7</sup></span></span>aret er en jordbærma<span class="chord-container">d<span class="chord-track"><span class="chord">H<sup>maj7</sup></span> <span class="chord">G<span class="sharp"></span>m<sup>6</sup></span></span></span><br></p><p>H<span class="chord-container">a<span class="chord-track"><span class="chord">A<sup>maj9</sup></span><span class="chord">G<span class="sharp"></span>m<sup>7</sup></span><span class="chord">H<sup>7</sup></span><span class="chord">E<sup>maj7</sup></span></span></span>vetrold med brækket tå<br>M<span class="chord-container">a<span class="chord-track"><span class="chord">A</span><span class="chord">C<span class="sharp"></span>m<sup>7</sup></span><span class="chord">G<span class="sharp"></span>m<sup>7</sup></span><span class="chord">A<sup>maj</sup></span></span></span>l du mine mærker blå<br>S<span class="chord-container">å<span class="chord-track"><span class="chord">A<sup>maj9</sup></span><span class="chord">G<span class="sharp"></span>m<sup>7</sup></span><span class="chord">H<sup>7</sup></span><span class="chord">E<sup>maj7</sup></span></span></span> ta’r jeg det første spring<br>O<span class="chord-container">v<span class="chord-track"><span class="chord">F<span class="sharp"></span>m<sup>7</sup></span><span class="chord">C<span class="sharp"></span>m<sup>7</sup></span><span class="chord">D</span><span class="chord">A</span></span></span>er åen til dit land<br></p></div></div><div class="column"> <!-- --BOBLEPLAST -- BOBLEPLAST -- BOBLEPLAST-- --><div class="img-track"><img src="/images/bobleplast1723996443988.jpg"></div><div class="text-track"><h1>Bobleplast</h1><button class="play-song-btn" onclick="playSong(this, '/audio/bobleplast1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:7DgcobgbM1oPK7CA1u4HlC'"><img src="/images/spotifysmall1723996443989.png"> </button><p><span class="chord-container">V<span class="chord">F<span class="sharp"></span>m</span></span>i kører rundt om <span class="chord-container">a<span class="chord">C<span class="sharp"></span>m</span></span>lle hjørner<br> <span class="chord-container">o<span class="chord">Hm</span></span>g jeg ved stadig ikke helt, hvor <span class="chord-container">d<span class="chord">F<span class="sharp"></span>m</span></span>u kommer fra<br><span class="chord-container">D<span class="chord">F<span class="sharp"></span>m</span></span>u siger du vil p<span class="chord-container">a<span class="chord">C<span class="sharp"></span>m</span></span>kke mig ind i bob<span class="chord-container">l<span class="chord">Hm</span></span>eplast <br>og <span class="chord-container">s<span class="chord">F<span class="sharp"></span>m</span></span>ende mig til <span class="chord-container">S<span class="chord">C<span class="sharp"></span>m</span></span>verige<br></p><p><span class="chord-container">D<span class="chord">F<span class="sharp"></span>m</span></span>u træk<span class="chord-container">k<span class="chord">A</span></span>er mit <span class="chord-container">v<span class="chord">Hm</span></span>ejr<br>i <span class="chord-container">d<span class="chord">A</span></span>in eg<span class="chord-container">e<span class="chord">E</span></span>n atmos<span class="chord-container">f<span class="chord">Hm</span></span>ære<br><span class="chord-container">D<span class="chord">F<span class="sharp"></span>m</span></span>et l<span class="chord-container">i<span class="chord">A</span></span>gemeget hv<span class="chord-container">o<span class="chord">Hm</span></span>r jeg er<br><span class="chord-container">D<span class="chord">A</span></span>er er altid <span class="chord-container">m<span class="chord">E</span></span>er' at l<span class="chord-container">æ<span class="chord">Hm</span></span>re<br></p><p><span class="chord-container">J<span class="chord">F<span class="sharp"></span>m</span></span>eg flyver rundt i <span class="chord-container">t<span class="chord">C<span class="sharp"></span>m</span></span>ankecirkler<br><span class="chord-container">o<span class="chord">Hm</span></span>g jeg ved stadig ikke helt, om du <span class="chord-container">k<span class="chord">F<span class="sharp"></span>m</span></span>ender mig<br><span class="chord-container">D<span class="chord">F<span class="sharp"></span>m</span></span>u siger, du vil <span class="chord-container">t<span class="chord">C<span class="sharp"></span>m</span></span>age mine ord<br><span class="chord-container">o<span class="chord">Hm</span></span>g male dem i <span class="chord-container">s<span class="chord">F<span class="sharp"></span>m</span></span>ølvsilh<span class="chord-container">u<span class="chord">C<span class="sharp"></span>m</span></span>etter<br></p><p><span class="chord-container">D<span class="chord">F<span class="sharp"></span>m</span></span>u træk<span class="chord-container">k<span class="chord">A</span></span>er mit <span class="chord-container">v<span class="chord">Hm</span></span>ejr<br>i <span class="chord-container">d<span class="chord">A</span></span>in eg<span class="chord-container">e<span class="chord">E</span></span>n atmos<span class="chord-container">f<span class="chord">Hm</span></span>ære<br><span class="chord-container">D<span class="chord">F<span class="sharp"></span>m</span></span>et l<span class="chord-container">i<span class="chord">A</span></span>gemeget hv<span class="chord-container">o<span class="chord">Hm</span></span>r jeg er<br><span class="chord-container">D<span class="chord">A</span></span>er er altid <span class="chord-container">m<span class="chord">E</span></span>er' at l<span class="chord-container">æ<span class="chord">Hm</span></span>re<br></p></div></div><div class="column"> <!-- --DER ER TID ENDNU -- DER ER TID ENDNU -- DER ER TID ENDNU-- --><div class="img-track"><img src="/images/dete1723996443988.jpg"></div><div class="text-track"><h1>Der er tid endnu</h1><!--<button class="play-song-btn" onclick="playSong(this, '/audio/dete1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button>--><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><!--<button class="toggle-chords" onclick="location.href='spotify:track:7DgcobgbM1oPK7CA1u4HlC'"><img src="/images/spotifysmall1723996443989.png"> </button>--><p><span class="chord-container">G<span class="chord">Cm</span></span>amle <span class="chord-container">v<span class="chord">B<span class="flat"></span></span></span>æse<span class="chord-container">n<span class="chord">E<span class="flat"></span></span></span>er med <span class="chord-container">v<span class="chord">A<span class="flat"></span></span></span>inger af strå<br><span class="chord-container">G<span class="chord">Cm</span></span>år på mor<span class="chord-container">g<span class="chord">B<span class="flat"></span></span></span>enly<span class="chord-container">s<span class="chord">E<span class="flat"></span></span></span>ets b<span class="chord-container">r<span class="chord">A<span class="flat"></span></span></span>o<br><span class="chord-container">B<span class="chord">Cm</span></span>ørneb<span class="chord-container">ø<span class="chord">B<span class="flat"></span></span></span>rn <span class="chord-container">e<span class="chord">E<span class="flat"></span></span></span>r vo<span class="chord-container">k<span class="chord">A<span class="flat"></span></span></span>set i stå<br><span class="chord-container">F<span class="chord">Cm</span></span>letter tidens <span class="chord-container">e<span class="chord">B<span class="flat"></span></span></span>nd<span class="chord-container">e<span class="chord">E<span class="flat"></span></span></span>r i<span class="chord-container">t<span class="chord">A<span class="flat"></span></span></span>u<br></p><p><span class="chord-container">D<span class="chord">Fm</span></span>er er så stille <span class="chord-container">i<span class="chord">B<span class="flat"></span></span></span>ndenfor,<br><span class="chord-container">n<span class="chord">E<span class="flat"></span></span></span>år vi <span class="chord-container">l<span class="chord">B<span class="flat"></span></span></span>ytt<span class="chord-container">e<span class="chord">Gm</span></span>r i sm<span class="chord-container">u<span class="chord">A<span class="flat"></span></span></span>g<br>Vi får vores minder fri<br>Der er tid endnu<br></p><p><span class="chord-container">U<span class="chord">E<span class="flat"></span></span></span>uh <span class="chord-container">u<span class="chord">B<span class="flat"></span></span></span>uh <span class="chord-container">u<span class="chord">A<span class="flat"></span></span></span>uh<br><span class="chord-container">U<span class="chord">E<span class="flat"></span></span></span>uh <span class="chord-container">u<span class="chord">B<span class="flat"></span></span></span>uh <span class="chord-container">u<span class="chord">F/A</span></span>uh<br><span class="chord-container">U<span class="chord">E<span class="flat"></span></span></span>uh <span class="chord-container">u<span class="chord">B<span class="flat"></span></span></span>uh <span class="chord-container">u<span class="chord">A<span class="flat"></span></span></span>uh<br><span class="chord-container">D<span class="chord">Cm</span></span>er er <span class="chord-container">t<span class="chord">B<span class="flat"></span></span></span>id <span class="chord-container">e<span class="chord">Gm</span></span>nd<span class="chord-container">n<span class="chord">F/a</span></span>u<br></p><p><span class="chord-container">D<span class="chord">Cm</span></span>e vil<span class="chord-container">d<span class="chord">B<span class="flat"></span></span></span>e bølg<span class="chord-container">e<span class="chord">E<span class="flat"></span></span></span>r ta'r <span class="chord-container">t<span class="chord">A<span class="flat"></span></span></span>iden med<br><span class="chord-container">F<span class="chord">Cm</span></span>ordri<span class="chord-container">v<span class="chord">B<span class="flat"></span></span></span>er <span class="chord-container">v<span class="chord">E<span class="flat"></span></span></span>ise <span class="chord-container">o<span class="chord">A<span class="flat"></span></span></span>rd<br><span class="chord-container">D<span class="chord">Cm</span></span>e skyll<span class="chord-container">e<span class="chord">B<span class="flat"></span></span></span>r i<span class="chord-container">n<span class="chord">E<span class="flat"></span></span></span>d <span class="chord-container">p<span class="chord">A<span class="flat"></span></span></span>å den bred,<br><span class="chord-container">h<span class="chord">Cm</span></span>vor de gam<span class="chord-container">l<span class="chord">B<span class="flat"></span></span></span>e væs<span class="chord-container">e<span class="chord">E<span class="flat"></span></span></span>ner b<span class="chord-container">o<span class="chord">A<span class="flat"></span></span></span>r<br></p><p><span class="chord-container">I<span class="chord">Fm</span></span>mellem blade hvor <span class="chord-container">a<span class="chord">B<span class="flat"></span></span></span>lt er blåt,<br><span class="chord-container">l<span class="chord">E<span class="flat"></span></span></span>ytt<span class="chord-container">e<span class="chord">B<span class="flat"></span></span></span>r vi <span class="chord-container">i<span class="chord">Gm</span></span> sm<span class="chord-container">u<span class="chord">A<span class="flat"></span></span></span>g<br><span class="chord-container">O<span class="chord">Fm</span></span>g i søens <span class="chord-container">r<span class="chord">B<span class="flat"></span></span></span>eflektion<br><span class="chord-container">e<span class="chord">E<span class="flat"></span></span></span>r der <span class="chord-container">t<span class="chord">B<span class="flat"></span></span></span>id <span class="chord-container">e<span class="chord">Gm</span></span>nd<span class="chord-container">n<span class="chord">A<span class="flat"></span></span></span>u<br></p><p><span class="chord-container">U<span class="chord">E<span class="flat"></span></span></span>uh <span class="chord-container">u<span class="chord">B<span class="flat"></span></span></span>uh <span class="chord-container">u<span class="chord">A<span class="flat"></span></span></span>uh<br><span class="chord-container">U<span class="chord">E<span class="flat"></span></span></span>uh <span class="chord-container">u<span class="chord">B<span class="flat"></span></span></span>uh <span class="chord-container">u<span class="chord">F/A</span></span>uh<br><span class="chord-container">U<span class="chord">E<span class="flat"></span></span></span>uh <span class="chord-container">u<span class="chord">B<span class="flat"></span></span></span>uh <span class="chord-container">u<span class="chord">A<span class="flat"></span></span></span>uh<br><span class="chord-container">D<span class="chord">Cm</span></span>er er <span class="chord-container">t<span class="chord">B<span class="flat"></span></span></span>id <span class="chord-container">e<span class="chord">Gm</span></span>nd<span class="chord-container">n<span class="chord">F/a</span></span>u<br></p><p>Uuh, uuh, uuh<br>Der er tid endnu<br>Der er tid endnu<br>Der er tid endnu<br>Der er tid endnu<br>Der er tid endnu<br></p></div></div><div class="column"> <!-- --DET TOMME RUM -- DET TOMME RUM -- DET TOMME RUM-- --><div class="img-track"><img src="/images/overflader-album1723996443989.jpg"></div><div class="text-track"><h1>Det Tomme Rum</h1><button class="play-song-btn" onclick="playSong(this, '/audio/det_tomme_rum1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:1MPUwIoF222h43GwuLbWaX'"><img src="/images/spotifysmall1723996443989.png"></button><p>J<span class="chord-container">e<span class="chord">Em<sup>11</sup></span></span>g under din uendelige, d<span class="chord-container">i<span class="chord">F<sup>maj<span class="sharp"></span>11</span></sup></span>n uforklarlighed<br>T<span class="chord-container">æ<span class="chord">Em<sup>11</sup></span></span>nker uden semantik, u<span class="chord-container">d<span class="chord">F<sup>maj<span class="sharp"></span>11</span></sup></span>en liv og mål<br>F<span class="chord-container">j<span class="chord">Em<sup>11</sup></span></span>ern er euforiens tanke, f<span class="chord-container">j<span class="chord">F<sup>maj<span class="sharp"></span>11</span></sup></span>ern er unikum<br></p><p>Men jeg<br>U<span class="chord-container">n<span class="chord">E/f<span class="sharp"></span></span></span>drer, og<br>L<span class="chord-container">y<span class="chord">G/a</span></span>strer, og<br>P<span class="chord-container">r<span class="chord">E/f<span class="sharp"></span></span></span>øver, og<br>t<span class="chord-container">y<span class="chord">G/a</span></span>sner<br></p><p>H<span class="chord-container">v<span class="chord">G</span></span>or er l<span class="chord-container">y<span class="chord">E<span class="flat"></span><sup>maj</sup></span></span>set, jeg f<span class="chord-container">a<span class="chord">C<sup>sus7</sup></span></span>lder nu&nbsp; &nbsp; &nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>sus</sup></span></span><br>L<span class="chord-container">ø<span class="chord">G</span></span>fter jeg l<span class="chord-container">o<span class="chord">E<span class="flat"></span><sup>maj</sup></span></span>vede, jeg i<span class="chord-container">k<span class="chord">C<sup>sus7</sup></span></span>ke kunne &nbsp; &nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>sus</sup></span></span><br>Jeg f<span class="chord-container">a<span class="chord">G</span></span>mler rundt i m<span class="chord-container">ø<span class="chord">E<span class="flat"></span><sup>maj</sup></span></span>rkeblå, efter o<span class="chord-container">r<span class="chord">C<sup>sus7</sup></span></span>d og mund &nbsp; &nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>sus</sup></span></span><br>Så, t<span class="chord-container">a<span class="chord">G</span></span>g mig ned og t<span class="chord-container">a<span class="chord">E<span class="flat"></span><sup>maj</sup></span></span>g mig væk, i det t<span class="chord-container">o<span class="chord">C<sup>sus7</sup></span></span>mme rum&nbsp; &nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>sus</sup></span></span><br></p><p class="chord-container independent"><span class="chord-track"><span class="chord">Em<sup>11</sup></span><span class="chord">Em<sup>11</sup></span></span></p><p>J<span class="chord-container">e<span class="chord">Em<sup>11</sup></span></span>g drømmer kun om møbler, og <span class="chord-container">g<span class="chord">F<sup>maj<span class="sharp"></span>11</span></sup></span>amle knuste tallerkner<br>T<span class="chord-container">a<span class="chord">Em<sup>11</sup></span></span>peter der oplyser <span class="chord-container">m<span class="chord">F<sup>maj<span class="sharp"></span>11</span></sup></span>ine indre depressioner<br></p><p>Jeg <span class="chord-container">d<span class="chord">E/f<span class="sharp"></span></span></span>rømmer, om<br>m<span class="chord-container">ø<span class="chord">G/a</span></span>bler, og<br>P<span class="chord-container">r<span class="chord">E/f<span class="sharp"></span></span></span>øver, og<br>t<span class="chord-container">y<span class="chord">G/a</span></span>sner<br></p><p>H<span class="chord-container">v<span class="chord">G</span></span>or er l<span class="chord-container">y<span class="chord">E<span class="flat"></span><sup>maj</sup></span></span>set, jeg f<span class="chord-container">a<span class="chord">C<sup>sus7</sup></span></span>lder nu&nbsp; &nbsp; &nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>sus</sup></span></span><br>L<span class="chord-container">ø<span class="chord">G</span></span>fter jeg l<span class="chord-container">o<span class="chord">E<span class="flat"></span><sup>maj</sup></span></span>vede, jeg i<span class="chord-container">k<span class="chord">C<sup>sus7</sup></span></span>ke kunne &nbsp; &nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>sus</sup></span></span><br>Jeg f<span class="chord-container">a<span class="chord">G</span></span>mler rundt i m<span class="chord-container">ø<span class="chord">E<span class="flat"></span><sup>maj</sup></span></span>rkeblå, efter o<span class="chord-container">r<span class="chord">C<sup>sus7</sup></span></span>d og mund &nbsp; &nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>sus</sup></span></span><br>Så, t<span class="chord-container">a<span class="chord">G</span></span>g mig ned og t<span class="chord-container">a<span class="chord">E<span class="flat"></span><sup>maj</sup></span></span>g mig væk, i det t<span class="chord-container">o<span class="chord">C<sup>sus7</sup></span></span>mme rum&nbsp; &nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>sus</sup></span></span><br></p></div></div><div class="column"> <!-- --DØD OVER TID -- DØD OVER TID -- DØD OVER TID-- --><div class="img-track"><img src="/images/overflader-album1723996443989.jpg"></div><div class="text-track"><div class="blomst blomsta"><img src="/images/alberte_blomst31723996443988.png"></div><h1>Død Over Tid</h1><button class="play-song-btn" onclick="playSong(this, '/audio/doed_over_tid1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:0RfrvAU2qDwmaJMDrLvj26'"><img src="/images/spotifysmall1723996443989.png"></button><p>J<span class="chord-container">e<span class="chord">Am</span></span>g sover <span class="chord-container">i<span class="chord">F<span class="sharp"></span>m</span></span>kke længere<br>J<span class="chord-container">e<span class="chord">Am</span></span>g drømmer kun<span class="chord-container"><span class="chord">F<span class="sharp"></span>m</span></span><br>T<span class="chord-container">æ<span class="chord">Am</span></span>ller min<span class="chord-container">u<span class="chord">F<span class="sharp"></span>m</span></span>tter jeg finder &nbsp; &nbsp;<span class="chord-container">&nbsp;<span class="chord">D</span></span><br>I min <span class="chord-container">t<span class="chord">C<span class="sharp"></span>m</span></span>anke<span class="chord-container">s<span class="chord">C<span class="sharp"></span>m<sup>7</sup></span></span>tund<br></p><p>H<span class="chord-container">v<span class="chord">D<sup>maj7</sup></span></span>or skal vi <span class="chord-container">h<span class="chord">D<sup>6/9</sup></span></span>en?<br>S<span class="chord-container">t<span class="chord">E</span></span>opper vi <span class="chord-container">o<span class="chord">F<span class="sharp"></span>m</span></span>p?<br>J<span class="chord-container">e<span class="chord">D<sup>maj7</sup></span></span>g mærker <span class="chord-container">s<span class="chord">D<sup>6/9</sup></span></span>igtbarheden<br>F<span class="chord-container">l<span class="chord">E</span></span>yver fra min <span class="chord-container">k<span class="chord">F<span class="sharp"></span>m</span></span>rop<br></p><p>J<span class="chord-container">e<span class="chord">Am</span></span>g vil have <span class="chord-container">e<span class="chord">F<span class="sharp"></span>m</span></span>ndnu mere<br>I<span class="chord-container">&nbsp;<span class="chord">Am</span></span>min hori<span class="chord-container">s<span class="chord">F<span class="sharp"></span>m</span></span>ont<br>J<span class="chord-container">e<span class="chord">Am</span></span>g mister <span class="chord-container">f<span class="chord">F<span class="sharp"></span>m</span></span>ornemmelsen &nbsp; &nbsp;<span class="chord-container">&nbsp;<span class="chord">D</span></span><br>Det er <span class="chord-container">s<span class="chord">C<span class="sharp"></span>m</span></span>tort og <span class="chord-container">t<span class="chord">C<span class="sharp"></span>m<sup>7</sup></span></span>omt<br></p><p>S<span class="chord-container">k<span class="chord">D<sup>maj7</sup></span></span>al vi der<span class="chord-container">h<span class="chord">D<sup>6/9</sup></span></span>en?<br>S<span class="chord-container">t<span class="chord">E</span></span>opper vi <span class="chord-container">o<span class="chord">F<span class="sharp"></span>m</span></span>p?<br>J<span class="chord-container">e<span class="chord">D<sup>maj7</sup></span></span>g taber <span class="chord-container">s<span class="chord">D<sup>6/9</sup></span></span>igtbarheden<br>F<span class="chord-container">l<span class="chord">E</span></span>yder fra mi<span class="chord-container">n<span class="chord">F<span class="sharp"></span>m</span></span> krop<br></p><p class="chord-container independent"><span class="chord-track"><span class="chord">4x</span><span class="chord">||:Dm<sup>9</sup></span><span class="chord">G<sup>(add 6/9)</sup>:||</span><span class="chord">D<sup>sus9</sup></span><span class="chord">D<sup>sus9</sup></span><span class="chord">D<sup>sus9</sup>/e</span><span class="chord">E<sup>7</sup>/g<span class="sharp"></span></span></span></p><p>H<span class="chord-container">v<span class="chord">Am</span></span>ad tror du <span class="chord-container">s<span class="chord">F<span class="sharp"></span>m</span></span>tøjer mest?<br>E<span class="chord-container">r<span class="chord">Am</span></span> det uaf<span class="chord-container">b<span class="chord">F<span class="sharp"></span>m</span></span>rudt?<br>E<span class="chord-container">r<span class="chord">Am</span></span> det u<span class="chord-container">e<span class="chord">F<span class="sharp"></span>m</span></span>ndeligt? &nbsp; &nbsp;<span class="chord-container">&nbsp;<span class="chord">D</span></span><br>Start <span class="chord-container">e<span class="chord">C<span class="sharp"></span>m</span></span>ller <span class="chord-container">s<span class="chord">C<span class="sharp"></span>m<sup>7</sup></span></span>lut?<br></p><p class="chord-container independent"><span class="chord-track"><span class="chord">2x </span> <span class="chord">||:D<sup>maj7</sup></span><span class="chord">E<sup>sus2</sup></span><span class="chord">E/a</span><span class="chord">F<span class="sharp"></span>m:||</span></span></p><p>V<span class="chord-container">i<span class="chord">D<sup>maj7</sup></span></span> ta’r der<span class="chord-container">h<span class="chord">E<sup>sus2</sup></span></span>en<br>D<span class="chord-container">u<span class="chord">E/a</span></span> stoppe<span class="chord-container">r<span class="chord">F<span class="sharp"></span>m</span></span> op<br>E<span class="chord-container">n<span class="chord">D<sup>maj7</sup></span></span> sjælden <span class="chord-container">s<span class="chord">E<sup>sus2</sup></span></span>igtbarhed<br>L<span class="chord-container">ø<span class="chord">E/a</span></span>fter min <span class="chord-container">k<span class="chord">F<span class="sharp"></span>m</span></span>rop<br></p><p>V<span class="chord-container">i<span class="chord">D<sup>maj7</sup></span></span> ta’r der<span class="chord-container">h<span class="chord">E<sup>sus2</sup></span></span>en<br>D<span class="chord-container">u<span class="chord">E/a</span></span> stoppe<span class="chord-container">r<span class="chord">F<span class="sharp"></span>m</span></span> op<br>E<span class="chord-container">n<span class="chord">D<sup>maj7</sup></span></span> sjælden <span class="chord-container">s<span class="chord">E<sup>sus2</sup></span></span>igtbarhed<br>L<span class="chord-container">ø<span class="chord">E/a</span></span>fter min <span class="chord-container">k<span class="chord">F<span class="sharp"></span>m</span></span>rop<br></p><p>V<span class="chord-container">i<span class="chord">D<sup>maj7</sup></span></span> ta’r der<span class="chord-container">h<span class="chord">E<sup>sus2</sup></span></span>en<br>D<span class="chord-container">u<span class="chord">E/a</span></span> stoppe<span class="chord-container">r<span class="chord">F<span class="sharp"></span>m</span></span> op<br>E<span class="chord-container">n<span class="chord">D<sup>maj7</sup></span></span> sjælden <span class="chord-container">s<span class="chord">E<sup>sus2</sup></span></span>igtbarhed<br>F<span class="chord-container">l<span class="chord">E/a</span></span>yver fra <span class="chord-container">m<span class="chord">F<span class="sharp"></span>m</span></span>in krop<br></p></div></div><div class="column"> <!-- --HJEMLØS -- HJEMLØS --  HJEMLØS-- --><div class="img-track"><img src="/images/runddans1723996443989.jpg"></div><div class="text-track"><h1>Hjemløs</h1><button class="play-song-btn" onclick="playSong(this, '/audio/hjemloes1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:6Y1lMP1PL3OwvuDenUl2ZZ'"><img src="/images/spotifysmall1723996443989.png"></button><p>H<span class="chord-container">j<span class="chord">G</span></span>em<span class="chord-container">l<span class="chord">Em</span></span>øs<br>T<span class="chord-container">o<span class="chord">D</span></span>m<br>S<span class="chord-container">e<span class="chord">G</span></span>r jeg dit euforis<span class="chord-container">e<span class="chord">Em</span></span>rende lys<br>Og <span class="chord-container">v<span class="chord">D</span></span>ender mig om<br>J<span class="chord-container">e<span class="chord">G</span></span>g er blevet mørk, jeg er blevet <span class="chord-container">æ<span class="chord">Em</span></span>dt op<br>Af d<span class="chord-container">i<span class="chord">D</span></span>g<br>O<span class="chord-container">g<span class="chord">G</span></span> det hele bliver så <span class="chord-container">i<span class="chord">Em</span></span>kke-eksisterende<br>Når jeg <span class="chord-container">s<span class="chord">D</span></span>tadig elsker dig<br></p><p>F<span class="chord-container">o<span class="chord">H</span></span>r jeg er blevet ti<span class="chord-container">l<span class="chord">G<span class="sharp"></span>m</span></span> sne nu<br>O<span class="chord-container">g<span class="chord">E</span></span> jeg smelte<span class="chord-container">r<span class="chord">H</span></span> langsomt<br>O<span class="chord-container">g<span class="chord">H</span></span> alt det du sagd<span class="chord-container">e<span class="chord">G<span class="sharp"></span>m</span></span> vi sku’<br>D<span class="chord-container">e<span class="chord">E</span></span>t virker s<span class="chord-container">å<span class="chord">H</span></span> ensomt<br></p><p>O<span class="chord-container">g<span class="chord">G</span></span> bag all<span class="chord-container">e<span class="chord">Em</span></span> rejserne<br>Som vi skulle ha<span class="chord-container">’<span class="chord">D</span></span> været på<br>O<span class="chord-container">g<span class="chord">G</span></span> under alle ga<span class="chord-container">l<span class="chord">Em</span></span>akserne<br>Dem v<span class="chord-container">i<span class="chord">D</span></span> gik ovenpå<br>N<span class="chord-container">u<span class="chord">G</span></span> har du krøllet de<span class="chord-container">t<span class="chord">Em</span></span> sammen og smidt det ud<br>Og lang<span class="chord-container">t<span class="chord">D</span></span> væk<br>J<span class="chord-container">e<span class="chord">G</span></span>g gav mi<span class="chord-container">g<span class="chord">Em</span></span> selv til dig<br>Nu har jeg kun mi<span class="chord-container">t<span class="chord">D</span></span> eget tomme blik<br></p><p>F<span class="chord-container">o<span class="chord">H</span></span>r jeg er bleve<span class="chord-container">t<span class="chord">G<span class="sharp"></span>m</span></span> væk nu<br>O<span class="chord-container">g<span class="chord">E</span></span> jeg kan ikke få øj<span class="chord-container">e<span class="chord">H</span></span> på mig selv<br>O<span class="chord-container">g<span class="chord">H</span></span> alt det du sagd<span class="chord-container">e<span class="chord">G<span class="sharp"></span>m</span></span> vi sku’<br>J<span class="chord-container">e<span class="chord">E</span></span>g prøver virkelig at sl<span class="chord-container">å<span class="chord">H</span></span> minderne ihjel<br></p><p>O<span class="chord-container">g<span class="chord">G</span></span> da vi gik genne<span class="chord-container">m<span class="chord">Em</span></span> tågen<br>Fra gan<span class="chord-container">g<span class="chord">D</span></span> til gang<br>E<span class="chord-container">f<span class="chord">G</span></span>terskole<span class="chord-container">l<span class="chord">Em</span></span>ygterne<br>Og di<span class="chord-container">n<span class="chord">D</span></span> selvskrevne sang<br>D<span class="chord-container">i<span class="chord">G</span></span>ne hænder og din<span class="chord-container">e<span class="chord">Em</span></span> øjne<br>Mit ny<span class="chord-container">e<span class="chord">D</span></span> hjem<br>V<span class="chord-container">i<span class="chord">G</span></span> svævede rund<span class="chord-container">t<span class="chord">Em</span></span> bortfløjne<br>Altin<span class="chord-container">g<span class="chord">D</span></span> var så nemt<br></p><p class="chord-container independent"><span class="chord-track"><span class="chord">||:</span><span class="chord">H</span><span class="chord">G<span class="sharp"></span>m</span><span class="chord">E</span><span class="chord">H</span><span class="chord">:||</span></span></span></p><p>S<span class="chord-container">n<span class="chord">G</span></span>orene i<span class="chord-container">m<span class="chord">Em</span></span>ellem os blev klippet over<br>S<span class="chord-container">å<span class="chord">D</span></span> let<br>O<span class="chord-container">g<span class="chord">G</span></span> jeg som troede de<span class="chord-container">t<span class="chord">Em</span></span> var tykke bånd<br>Der va<span class="chord-container">r<span class="chord">D</span></span> bundet tæt<br>P<span class="chord-container">l<span class="chord">G</span></span>astik<span class="chord-container">l<span class="chord">Em</span></span>øfter<br>Jeg troed<span class="chord-container">e<span class="chord">D</span></span> kunne holde<br>N<span class="chord-container">u<span class="chord">G</span></span> er jeg gået <span class="chord-container">i<span class="chord">Em</span></span> stykker<br>Og glæden den kan ku<span class="chord-container">n<span class="chord">D</span></span> du beholde<br></p><p>F<span class="chord-container">o<span class="chord">H</span></span>r jeg er blevet ti<span class="chord-container">l<span class="chord">G<span class="sharp"></span>m</span></span> sne nu<br>O<span class="chord-container">g<span class="chord">E</span></span> jeg smelte<span class="chord-container">r<span class="chord">H</span></span> langsomt<br>O<span class="chord-container">g<span class="chord">H</span></span> alt det du sagd<span class="chord-container">e<span class="chord">G<span class="sharp"></span>m</span></span> vi sku’<br>D<span class="chord-container">e<span class="chord">E</span></span>t er nu s<span class="chord-container">å<span class="chord">H</span></span> ensomt<br></p><p>O<span class="chord-container">g<span class="chord">H</span></span> alt det du sagd<span class="chord-container">e<span class="chord">G<span class="sharp"></span>m</span></span> vi sku’<br>D<span class="chord-container">e<span class="chord">E</span></span>t er nu s<span class="chord-container">å<span class="chord">H</span></span> ensomt<br></p></div></div><div class="column"> <!-- --KAFFEKOPPER -- KAFFEKOPPER -- KAFFEKOPPER-- --><div class="img-track"><img src="/images/runddans1723996443989.jpg"></div><div class="text-track"><div class="blomst blomst2"><img src="/images/alberte_blomst21723996443988.png"></div><h1>Kaffekopper</h1><button class="play-song-btn" onclick="playSong(this, '/audio/kaffekopper1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:6yTu7mi4lMtG0MgVSqHB3k'"><img src="/images/spotifysmall1723996443989.png"></button><p>H<span class="chord-container">v<span class="chord">Em</span></span>em har lyst til a<span class="chord-container">t<span class="chord">G</span></span> leve i en verden<br>h<span class="chord-container">v<span class="chord">C</span></span>or mangel på r<span class="chord-container">e<span class="chord">D</span></span>spekt er overskriften?<br>K<span class="chord-container">r<span class="chord">Em</span></span>avl op o<span class="chord-container">g<span class="chord">G</span></span> find perspektiverne<br>o<span class="chord-container">g<span class="chord">C</span></span> kig fra toppen a<span class="chord-container">f<span class="chord">D</span></span> sendemasten<br></p><p>T<span class="chord-container">ø<span class="chord">Em</span></span>m jere<span class="chord-container">s<span class="chord">G</span></span> kaffekopper<br>o<span class="chord-container">g<span class="chord">C</span></span> træk ga<span class="chord-container">r<span class="chord">D</span></span>dinerne fra<br>S<span class="chord-container">e<span class="chord">Em</span></span> ude<span class="chord-container">n<span class="chord">G</span></span>for<br>D<span class="chord-container">e<span class="chord">C</span></span>t er al<span class="chord-container">t<span class="chord">D</span></span> hvad vi har<br></p><p>H<span class="chord-container">v<span class="chord">Gm</span></span>ordan har v<span class="chord-container">i<span class="chord">Dm</span></span> glemt<br>a<span class="chord-container">t<span class="chord">F</span></span> passe p<span class="chord-container">å<span class="chord">C</span></span> hinanden?<br>D<span class="chord-container">e<span class="chord">Gm</span></span>t Danmark vi ha<span class="chord-container">r<span class="chord">Dm</span></span> kendt<br>D<span class="chord-container">e<span class="chord">F</span></span>t falder fr<span class="chord-container">a<span class="chord">C</span></span> hinanden<br></p><p>H<span class="chord-container">v<span class="chord">Em</span></span>em er I, de<span class="chord-container">r<span class="chord">G</span></span> skaber den verden<br>s<span class="chord-container">o<span class="chord">C</span></span>m kun har plads ti<span class="chord-container">l<span class="chord">D</span></span> os og de?<br>O<span class="chord-container">g<span class="chord">Em</span></span> hvem er vi, a<span class="chord-container">t<span class="chord">G</span></span> leve i en verden<br>h<span class="chord-container">v<span class="chord">C</span></span>or stedordene e<span class="chord-container">r<span class="chord">D</span></span> dem og vi?<br></p><p>S<span class="chord-container">å<span class="chord">Em</span></span> sl<span class="chord-container">å<span class="chord">G</span></span> skyklapperne fra<br>o<span class="chord-container">g<span class="chord">C</span></span> se dem gå p<span class="chord-container">å<span class="chord">D</span></span> alle veje<br>O<span class="chord-container">g<span class="chord">Em</span></span> I skal ikk<span class="chord-container">e<span class="chord">G</span></span> tro<br>a<span class="chord-container">t<span class="chord">C</span></span> det er al<span class="chord-container">t<span class="chord">D</span></span> I kan eje<br></p><p>H<span class="chord-container">v<span class="chord">Gm</span></span>ordan har v<span class="chord-container">i<span class="chord">Dm</span></span> glemt<br>a<span class="chord-container">t<span class="chord">F</span></span> passe p<span class="chord-container">å<span class="chord">C</span></span> hinanden?<br>D<span class="chord-container">e<span class="chord">Gm</span></span>t Danmark vi ha<span class="chord-container">r<span class="chord">Dm</span></span> kendt<br>D<span class="chord-container">e<span class="chord">F</span></span>t falder fr<span class="chord-container">a<span class="chord">C</span></span> hinanden &nbsp;<span class="chord-container">&nbsp;<span class="chord">C</span></span><br></p><p>D<span class="chord-container">e<span class="chord">Gm</span></span>t falde<span class="chord-container">r<span class="chord">Dm</span></span> fra hinanden<br>D<span class="chord-container">e<span class="chord">F</span></span>t falder<span class="chord-container">,<span class="chord">C</span></span> det falder<br>D<span class="chord-container">e<span class="chord">Gm</span></span> falde<span class="chord-container">r<span class="chord">Dm</span></span> fra hinanden<br>D<span class="chord-container">e<span class="chord">F</span></span> falder<span class="chord-container">,<span class="chord">C</span></span> de falder<br>I<span class="chord-container">&nbsp;<span class="chord">Gm</span></span> falde<span class="chord-container">r<span class="chord">Dm</span></span> fra hinanden<br>I<span class="chord-container">&nbsp;<span class="chord">F</span></span> falder<span class="chord-container">,<span class="chord">C</span></span> I falder<br>V<span class="chord-container">i<span class="chord">Gm</span></span> falde<span class="chord-container">r<span class="chord">Dm</span></span> fra hinanden<br>V<span class="chord-container">i<span class="chord">F</span></span> falder<span class="chord-container">,<span class="chord">C</span></span> vi falder<br></p></div></div><div class="column"> <!-- --LUFT -- LUFT -- LUFT -- LUFT-- --><div class="img-track"><img src="/images/runddans1723996443989.jpg"></div><div class="text-track"><h1>Luft</h1><button class="play-song-btn" onclick="playSong(this, '/audio/luft1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:3Kgvot95opdi1veeUV4GdD'"><img src="/images/spotifysmall1723996443989.png"></button><p>D<span class="chord-container">u<span class="chord">Gm</span></span> vil altid strække din<span class="chord-container">e<span class="chord">C</span></span> støvede hænder<br>O<span class="chord-container">g<span class="chord">Gm</span></span> række ud efter forsvinding<span class="chord-container">s<span class="chord">C</span></span>punkter<br>D<span class="chord-container">e<span class="chord">Gm</span></span>t er ikke altid at d<span class="chord-container">u<span class="chord">C</span></span> husker dem du glemmer<br>O<span class="chord-container">g<span class="chord">Gm</span></span> nu er alle tekstern<span class="chord-container">e<span class="chord">C</span></span> skrumpet &nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>maj7</sup></span></span><br></p><p>D<span class="chord-container">e<span class="chord">F</span></span>t falder sammen, jeg ha<span class="chord-container">r<span class="chord">C</span></span> brug for luft &nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>maj7</sup></span></span><br>H<span class="chord-container">o<span class="chord">F</span></span>lder fast på din opløsnin<span class="chord-container">g<span class="chord">C</span></span> og true<span class="chord-container">r<span class="chord">C<sup>maj7</sup></span></span> dig<br>D<span class="chord-container">e<span class="chord">F</span></span>t fanger dine øjne, o<span class="chord-container">g<span class="chord">C</span></span> det fanger din duft &nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>maj7</sup></span></span><br>J<span class="chord-container">e<span class="chord">F</span></span>g pakker det sammen, og løbe<span class="chord-container">r<span class="chord">C</span></span> den anden vej &nbsp;<span class="chord-container">&nbsp;<span class="chord-track"><span class="chord">C<sup>maj7</sup></span><span class="chord">C<sup>7</sup></span></span></span><br>Den ande<span class="chord-container">n<span class="chord">C</span></span> vej<br></p><p>D<span class="chord-container">a<span class="chord">Gm</span></span>gen sortner i o<span class="chord-container">p<span class="chord">C</span></span>pustede tankebaner<br>D<span class="chord-container">u<span class="chord">Gm</span></span> er blevet uvirkelig, side<span class="chord-container">n<span class="chord">C</span></span> sidst vi sås<br>M<span class="chord-container">e<span class="chord">Gm</span></span>n tiden løber længere end d<span class="chord-container">u<span class="chord">C</span></span> aner<br>D<span class="chord-container">e<span class="chord">Gm</span></span>t er lettere at skrive ned<span class="chord-container">,<span class="chord">C</span></span> sætte ord i bås &nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>maj7</sup></span></span><br></p><p>D<span class="chord-container">e<span class="chord">F</span></span>t falder sammen, jeg ha<span class="chord-container">r<span class="chord">C</span></span> brug for luft &nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>maj7</sup></span></span><br>H<span class="chord-container">o<span class="chord">F</span></span>lder fast på din opløsnin<span class="chord-container">g<span class="chord">C</span></span> og true<span class="chord-container">r<span class="chord">C<sup>maj7</sup></span></span> dig<br>D<span class="chord-container">e<span class="chord">F</span></span>t fanger dine øjne, og de<span class="chord-container">t<span class="chord">C</span></span> fanger din duft &nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>maj7</sup></span></span><br>J<span class="chord-container">e<span class="chord">F</span></span>g pakker det sammen, og løbe<span class="chord-container">r<span class="chord">C</span></span> den anden vej &nbsp;<span class="chord-container">&nbsp;<span class="chord-track"><span class="chord">C<sup>maj7</sup></span><span class="chord">C<sup>7</sup></span></span></span><br>Den ande<span class="chord-container">n<span class="chord">C</span></span> vej<br></p></div></div><div class="column"> <!-- --OVERFLADER -- OVERFLADER -- OVERFLADER-- --><div class="img-track"><img src="/images/overflader-album1723996443989.jpg"></div><div class="text-track"><h1>Overflader</h1><button class="play-song-btn" onclick="playSong(this, '/audio/overflader1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:6nwd5YqPY9olY6TGdfuYs8'"><img src="/images/spotifysmall1723996443989.png"></button><p>B<span class="chord-container">a<span class="chord">Gm</span></span>g min<span class="chord-container">e<span class="chord">D</span></span> øjenlåg gemmer si<span class="chord-container">g<span class="chord">Gm</span></span> et ansigt<br>Med din<span class="chord-container">e<span class="chord">D</span></span> kantede øjne<br>D<span class="chord-container">e<span class="chord">Gm</span></span>t b<span class="chord-container">e<span class="chord">D</span></span>grænser mi<span class="chord-container">n<span class="chord">Gm</span></span> udsigt<br>Fortælle<span class="chord-container">r<span class="chord">D</span></span> hvide løgne &nbsp;<span class="chord-container">&nbsp;<span class="chord-track"><span class="chord">Hm</span><span class="chord">E</span></span></span><br></p><p>Dine løgne&nbsp;<span class="chord-container">&nbsp;<span class="chord-track"><span class="chord">Hm</span><span class="chord">E</span></span></span><br>Dine løgne&nbsp;<span class="chord-container">&nbsp;<span class="chord-track"><span class="chord">Hm</span><span class="chord">E</span></span></span><br>Dine løgne&nbsp;<span class="chord-container">&nbsp;<span class="chord-track"><span class="chord">Hm</span><span class="chord">E</span></span></span><br></p><p>D<span class="chord-container">u<span class="chord">Am</span></span> forsvinde<span class="chord-container">r<span class="chord">E<sup>9</sup></span></span> ud som sand i mellem min<span class="chord-container">e<span class="chord">Em</span></span> fingre<br>Hm<span class="chord-container">m<span class="chord">E<sup>9</sup></span></span><br>J<span class="chord-container">e<span class="chord">Am</span></span>g gå<span class="chord-container">r<span class="chord">E<sup>9</sup></span></span> rundt på dine ove<span class="chord-container">r<span class="chord">Am</span></span>flader<br>Hm<span class="chord-container">m<span class="chord">E<sup>9</sup></span></span><br></p><p>M<span class="chord-container">e<span class="chord">Gm</span></span>d vandrend<span class="chord-container">e<span class="chord">D</span></span> blikke, snakker vi o<span class="chord-container">m<span class="chord">Gm</span></span> glæden<br>Dit for<span class="chord-container">s<span class="chord">D</span></span>vindingspunkt<br>H<span class="chord-container">e<span class="chord">Am</span></span>r mærke<span class="chord-container">r<span class="chord">D</span></span> jeg ensom<span class="chord-container">h<span class="chord">Gm</span></span>eden<br>Det gø<span class="chord-container">r<span class="chord">D</span></span> så ondt<br><p class="chord-container independent"><span class="chord-track"><span class="chord">Hm</span><span class="chord">E</span></span></span></p></p><p>Det gør s<span class="chord-container">å<span class="chord">Hm</span></span> ondt &nbsp;<span class="chord-container">&nbsp;<span class="chord">E</span></span></span><br>Det gør s<span class="chord-container">å<span class="chord">Hm</span></span> ondt &nbsp;<span class="chord-container">&nbsp;<span class="chord">E</span></span></span><br>Det gør s<span class="chord-container">å<span class="chord">Hm</span></span> ondt &nbsp;<span class="chord-container">&nbsp;<span class="chord">E</span></span></span><br><p>L<span class="chord-container">y<span class="chord">Am</span></span>sstribe<span class="chord-container">r<span class="chord">E<sup>9</sup></span></span>ne er ikke d<span class="chord-container">e<span class="chord">Am</span></span> samme<br>Hm<span class="chord-container">m<span class="chord">E<sup>9</sup></span></span><br>J<span class="chord-container">e<span class="chord">Am</span></span>g gå<span class="chord-container">r<span class="chord">E<sup>9</sup></span></span> rundt på mine ove<span class="chord-container">r<span class="chord">Am</span></span>flader<br>Hm<span class="chord-container">m<span class="chord">E<sup>9</sup></span></span><br></p><p>L<span class="chord-container">y<span class="chord">Am</span></span>sstribe<span class="chord-container">r<span class="chord">E<sup>9</sup></span></span>ne er ikke d<span class="chord-container">e<span class="chord">Am</span></span> samme<br>Hm<span class="chord-container">m<span class="chord">E<sup>9</sup></span></span><br>J<span class="chord-container">e<span class="chord">Am</span></span>g gå<span class="chord-container">r<span class="chord">E<sup>9</sup></span></span> rundt på mine ove<span class="chord-container">r<span class="chord">Am</span></span>flader<br>Hm<span class="chord-container">m<span class="chord">E<sup>9</sup></span></span><br></p></div></div><div class="column"> <!-- --PORCELÆNSHAV -- PORCELÆNSHAV -- PORCELÆNSHAV-- --><div class="img-track"><img src="/images/porcelaenshav1723996443989.jpg"></div><div class="text-track"><h1>Porcelænshav</h1><button class="play-song-btn" onclick="playSong(this, '/audio/porcelaenshav1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:6weuchenVg1TRYPM9DtGaI'"><img src="/images/spotifysmall1723996443989.png"></button><p><span class="chord-container">D<span class="chord">Hm7</span></span>er er noget jeg vil <span class="chord-container">f<span class="chord">A6</span></span>ortælle dig<br><span class="chord-container">D<span class="chord">G<sup>maj9</sup></span></span>u kan se det&nbsp;<span class="chord-container">&nbsp;<span class="chord">A6</span></span></span><br>I <span class="chord-container">m<span class="chord">Hm7</span></span>ine <span class="chord-container">p<span class="chord">B<span class="flat"></span>m<sup>maj7<span class="sharp"></span>5</sup></span></span>orcelænsøj<span class="chord-container">n<span class="chord">G<sup>maj9</sup></span></span>e<br></p><p><span class="chord-container">J<span class="chord">Hm7</span></span>eg ser hvordan det <span class="chord-container">f<span class="chord">A6</span></span>lasker sig<br>På den <span class="chord-container">a<span class="chord">G<sup>maj9</sup></span></span>nden side&nbsp;<span class="chord-container">&nbsp;<span class="chord">A6</span></span></span><br><span class="chord-container">A<span class="chord">Hm7</span></span>f vores <span class="chord-container">p<span class="chord">B<span class="flat"></span>m<sup>maj7<span class="sharp"></span>5</sup></span></span>orcelænsh<span class="chord-container">a<span class="chord">G<sup>maj9</sup></span></span>v<br></p><p><span class="chord-container">V<span class="chord">Em</span></span>i svømmer <span class="chord-container">r<span class="chord">G/d</span></span>undt<br>i m<span class="chord-container">i<span class="chord">Em/c<span class="sharp"></span></span></span>t sind&nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>maj7</sup></span></span></span><br><span class="chord-container">B<span class="chord">Em</span></span>landt mine ner<span class="chord-container">o<span class="chord">G/d</span></span>ser<br><span class="chord-container">F<span class="chord">Em/c<span class="sharp"></span></span></span>år du lov at komme <span class="chord-container">i<span class="chord">C<sup>maj7</sup></span></span>nd<br></p><p><span class="chord-container">D<span class="chord">Hm7</span></span>u går rundt med dine hænder på <span class="chord-container">r<span class="chord">A6</span></span>yggen<br>og <span class="chord-container">f<span class="chord">G<sup>maj9</sup></span></span>ortæller mig&nbsp;<span class="chord-container">&nbsp;<span class="chord">A6</span></span></span><br><span class="chord-container">O<span class="chord">Hm7</span></span>m byens s<span class="chord-container">t<span class="chord">B<span class="flat"></span>m<sup>maj7<span class="sharp"></span>5</sup></span></span>emninger<br>og <span class="chord-container">f<span class="chord">G<sup>maj9</sup></span></span>arver<br></p><p><span class="chord-container">V<span class="chord">Em</span></span>i svømmer <span class="chord-container">r<span class="chord">G/d</span></span>undt<br>i d<span class="chord-container">i<span class="chord">Em/c<span class="sharp"></span></span></span>t sind&nbsp;<span class="chord-container">&nbsp;<span class="chord">C<sup>maj7</sup></span></span></span><br><span class="chord-container">B<span class="chord">Em</span></span>landt dine ner<span class="chord-container">o<span class="chord">G/d</span></span>ser<br><span class="chord-container">F<span class="chord">Em/c<span class="sharp"></span></span></span>år jeg lov at komme <span class="chord-container">i<span class="chord">C<sup>maj7</sup></span></span>nd<br></p><p><span class="chord-container">J<span class="chord">Hm7</span></span>eg smager på alt du <span class="chord-container">g<span class="chord">A6</span></span>ør<br>på de <span class="chord-container">f<span class="chord">G<sup>maj9</sup></span></span>ølelser du føler&nbsp;<span class="chord-container">&nbsp;<span class="chord">A6</span></span></span><br><span class="chord-container">P<span class="chord">Hm7</span></span>å hvordan du <span class="chord-container">a<span class="chord">B<span class="flat"></span>m<sup>maj7<span class="sharp"></span>5</sup></span></span>ldrig er<br><span class="chord-container">a<span class="chord">G<sup>maj9</sup></span></span>lene<br></p></div></div><div class="column"> <!-- --RUNDDANS -- RUNDDANS -- RUNDDANS-- --><div class="img-track"><img src="/images/runddans1723996443989.jpg"></div><div class="text-track"><div class="blomst blomst3"><img src="/images/alberte_blomst11723996443988.png"></div><h1>Runddans</h1><button class="play-song-btn" onclick="playSong(this, '/audio/runddans1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:6GQ48s77GamiCqUbzHJ31O'"><img src="/images/spotifysmall1723996443989.png"></button><p>N<span class="chord-container">a<span class="chord">E<sup>maj9</sup></span></span>ttevandringer<br>V<span class="chord-container">i<span class="chord">A<sup>maj9</sup></span></span> kommer ingen steder fra<br>M<span class="chord-container">e<span class="chord">E<sup>maj9</sup></span></span>n har meget at skulle tænke<br>I<span class="chord-container">n<span class="chord">A<sup>maj9</sup></span></span>den vi går herfra<br>T<span class="chord-container">æ<span class="chord">E<sup>maj9</sup></span></span>ndte lys i værelserne<br>F<span class="chord-container">o<span class="chord">A<sup>maj9</sup></span></span>lk der ik’ kan finde ro<br>E<span class="chord-container">t<span class="chord">E<sup>maj9</sup></span></span> tog uden vedhæng og passagerer &nbsp;<span class="chord-container">&nbsp;<span class="chord">F#m<sup>9</sup></span></span><br>Men i aften er vi t<span class="chord-container">o<span class="chord-track"><span class="chord">H</span><span class="chord">Cm7 <span class="flat"></span>5</span></span></span><br></p><p>E<span class="chord-container">t<span class="chord">C<span class="sharp"></span>m</span></span> stjern<span class="chord-container">e<span class="chord">E</span></span>hav af observa<span class="chord-container">t<span class="chord">H</span></span>ioner<br>R<span class="chord-container">u<span class="chord">H</span></span>nddans på e<span class="chord-container">n<span class="chord">Cm<sup>7<span class="flat"></span>5</sup></span></span> ubefærde<span class="chord-container">t<span class="chord">H</span></span> vej<br>Vi lever ku<span class="chord-container">n<span class="chord">E</span></span> i nuet<br>og nu je<span class="chord-container">g<span class="chord">H</span></span> elsker dig &nbsp;<span class="chord-container">&nbsp;<span class="chord">G#<sup>7</sup></span></span><br></p><p>D<span class="chord-container">a<span class="chord">E<sup>maj9</sup></span></span>nsende stjerner i vandet<br>D<span class="chord-container">u<span class="chord">A<sup>maj9</sup></span></span> dyborange måne<br>D<span class="chord-container">y<span class="chord">E<sup>maj9</sup></span></span>renes tilstedeværelse<br>I<span class="chord-container">k<span class="chord">A<sup>maj9</sup></span></span>ke de eneste vågne<br>U<span class="chord-container">f<span class="chord">E<sup>maj9</sup></span></span>orglemmelige uendelige samtaler<br>u<span class="chord-container">n<span class="chord">A<sup>maj9</sup></span></span>der en velkendt vogn<br>M<span class="chord-container">a<span class="chord">E<sup>maj9</sup></span></span>n kan mærke og føle og sanse verden &nbsp;<span class="chord-container">&nbsp;<span class="chord">F#m<sup>9</sup></span></span><br>Guld værd i morge<span class="chord-container">n<span class="chord-track"><span class="chord">H</span><span class="chord">Cm7 <span class="flat"></span>5</span></span></span><br></p><p>E<span class="chord-container">t<span class="chord">C<span class="sharp"></span>m</span></span> stjern<span class="chord-container">e<span class="chord">E</span></span>hav af observa<span class="chord-container">t<span class="chord">H</span></span>ioner<br>R<span class="chord-container">u<span class="chord">H</span></span>nddans på e<span class="chord-container">n<span class="chord">Cm<sup>7<span class="flat"></span>5</sup></span></span> ubefærde<span class="chord-container">t<span class="chord">H</span></span> vej<br>Vi lever ku<span class="chord-container">n<span class="chord">E</span></span> i nuet<br>og nu je<span class="chord-container">g<span class="chord">H</span></span> elsker dig &nbsp;<span class="chord-container">&nbsp;<span class="chord">G#<sup>7</sup></span></span><br></p><p class="chord-container independent"><span class="chord-track"><span class="chord">E<sup>maj9</sup></span><span class="chord">A<sup>maj9</sup></span></span></span></p><p>A<span class="chord-container">l<span class="chord">Am<sup>9</sup></span></span>le de uskygger o<span class="chord-container">g<span class="chord">D<sup>6/9</sup></span></span> undertoner<br>v<span class="chord-container">i<span class="chord">Em</span></span> aldrig bemærker eller mærk<span class="chord-container">e<span class="chord">Am<sup>9</sup></span></span>r<br>Nøjagtige de<span class="chord-container">t<span class="chord">D<sup>6/9</sup></span></span>aljer på en miniatur<span class="chord-container">e<span class="chord">Em</span></span><br>V<span class="chord-container">i<span class="chord">Am<sup>9</sup></span></span>ldfarne o<span class="chord-container">g<span class="chord">D<sup>6/9</sup></span></span> bortløbne<br>N<span class="chord-container">o<span class="chord">Em</span></span>get i blodet men ikke nok til at <span class="chord-container">s<span class="chord">Am<sup>9</sup></span></span>e<br>himle<span class="chord-container">n<span class="chord">D<sup>6/9</sup></span></span> ude<span class="chord-container">n<span class="chord">H<sup>7</sup></span></span> stjerner på<br></p><p class="chord-container independent"><span class="chord-track"><span class="chord">||:</span><span class="chord">E<sup>maj9</sup></span><span class="chord">A<sup>maj9</sup></span><span class="chord">:||</span></span></span></p><p>S<span class="chord-container">n<span class="chord">E<sup>maj9</sup></span></span>eboldkamp med mælkebøtter<br>O<span class="chord-container">p<span class="chord">A<sup>maj9</sup></span></span>mærksomme på biler<br>I<span class="chord-container">&nbsp;<span class="chord">E<sup>maj9</sup></span></span>nat blir’ vi ikke bange<br>M<span class="chord-container">e<span class="chord">A<sup>maj9</sup></span></span>n kigger op og smiler<br></p><p class="chord-container independent"><span class="chord-track"><span class="chord">||:</span><span class="chord">E</span><span class="chord">E<sup>maj</sup></span><span class="chord">:||</span></span></span></p></div></div><div class="column"> <!-- --RYGSÆK -- RYGSÆK -- RYGSÆK-- --><div class="img-track"><img src="/images/rygsaek1723996443989.jpg"></div><div class="text-track"><h1>Rygsæk</h1><button class="play-song-btn" onclick="playSong(this, '/audio/rygsaek1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:5qG5mGmVGerZSe9uffkXTr'"><img src="/images/spotifysmall1723996443989.png"> </button><p><span class="chord-container">J<span class="chord">F</span></span>eg la' dig <span class="chord-container">r<span class="chord">Dm</span></span>ejse<br> <span class="chord-container">M<span class="chord">F</span></span>ed en <span class="chord-container">r<span class="chord">Dm</span></span>ygsæk<br><span class="chord-container">D<span class="chord">F</span></span>er kun bli'r <span class="chord-container">l<span class="chord">Dm</span></span>ettere <br><span class="chord-container">H<span class="chord">F</span></span>ver gang du <span class="chord-container">i<span class="chord">Dm</span></span>kke tænker på mig<br></p><p><span class="chord-container">D<span class="chord">F</span></span>er sidder <span class="chord-container">g<span class="chord">Dm</span></span>lasskår<br>I <span class="chord-container">v<span class="chord">F</span></span>ores <span class="chord-container">h<span class="chord">Dm</span></span>jerter<br><span class="chord-container">J<span class="chord">F</span></span>eg stopper <span class="chord-container">a<span class="chord">Dm</span></span>ldrig<br><span class="chord-container">M<span class="chord">F</span></span>ed at se verden <span class="chord-container">g<span class="chord">Dm</span></span>ennem dine øjne<br></p><p><span class="chord-container">F<span class="chord">E<span class="flat"></span><sup>maj7</sup></span></span>inder <span class="chord-container">u<span class="chord">Gm</span></span>d af din <span class="chord-container">v<span class="chord">C</span></span>arme<br><span class="chord-container">G<span class="chord">E<span class="flat"></span><sup>maj7</sup></span></span>ennem pu<span class="chord-container">s<span class="chord">Gm</span></span>t af fj<span class="chord-container">e<span class="chord">C</span></span>r<br><span class="chord-container">E<span class="chord">E<span class="flat"></span><sup>maj7</sup></span></span>t langsomt <span class="chord-container">f<span class="chord">Gm</span></span>ald ud i <span class="chord-container">i<span class="chord">C</span></span>ngenting<br><span class="chord-container">D<span class="chord">E<span class="flat"></span><sup>maj7</sup></span></span>ig <span class="chord-container">o<span class="chord">Gm</span></span>g dine i<span class="chord-container">d<span class="chord">C</span></span>eer<br></p><p><span class="chord-container">J<span class="chord">F</span></span>eg lærer lang<span class="chord-container">s<span class="chord">Dm</span></span>omt<br><span class="chord-container">A<span class="chord">F</span></span>t trække v<span class="chord-container">e<span class="chord">Dm</span></span>jret<br>I <span class="chord-container">n<span class="chord">F</span></span>ye ry<span class="chord-container">t<span class="chord">Dm</span></span>mer<br><span class="chord-container">H<span class="chord">F</span></span>ver gang jeg <span class="chord-container">i<span class="chord">Dm</span></span>kke tænker på dig<br></p><p><span class="chord-container">F<span class="chord">E<span class="flat"></span><sup>maj7</sup></span></span>inder <span class="chord-container">u<span class="chord">Gm</span></span>d af din <span class="chord-container">v<span class="chord">C</span></span>arme<br><span class="chord-container">G<span class="chord">E<span class="flat"></span><sup>maj7</sup></span></span>ennem pu<span class="chord-container">s<span class="chord">Gm</span></span>t af fj<span class="chord-container">e<span class="chord">C</span></span>r<br><span class="chord-container">E<span class="chord">E<span class="flat"></span><sup>maj7</sup></span></span>t langsomt <span class="chord-container">f<span class="chord">Gm</span></span>ald ud i <span class="chord-container">i<span class="chord">C</span></span>ngenting<br><span class="chord-container">D<span class="chord">E<span class="flat"></span><sup>maj7</sup></span></span>ig <span class="chord-container">o<span class="chord">Gm</span></span>g dine i<span class="chord-container">d<span class="chord">C</span></span>eer<br></p><p><span class="chord-container">O<span class="chord">F</span></span>g vores m<span class="chord-container">i<span class="chord">Dm</span></span>nder<br><span class="chord-container">D<span class="chord">F</span></span>e bliver til <span class="chord-container">d<span class="chord">Dm</span></span>rømme<br><span class="chord-container">J<span class="chord">F</span></span>eg har fort<span class="chord-container">a<span class="chord">Dm</span></span>lt dig<br>I <span class="chord-container">p<span class="chord">F</span></span>aralelle univ<span class="chord-container">e<span class="chord">Dm</span></span>rser<br></p></div></div><div class="column"> <!-- --RØD -- RØD -- RØD -- RØD -- RØD-- --><div class="img-track"><img src="/images/overflader-album1723996443989.jpg"></div><div class="text-track"><h1>Rød</h1><button class="play-song-btn" onclick="playSong(this, '/audio/roed1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:7LKFx2lDopeC8XPXoAWS8D'"><img src="/images/spotifysmall1723996443989.png"></button><p>J<span class="chord-container">e<span class="chord">Am<sup>7</sup></span></span>g ser <span class="chord-container">a<span class="chord">G</span></span>ften<span class="chord-container">s<span class="chord">C</span></span>olen<br>F<span class="chord-container">j<span class="chord">Am<sup>7</sup></span></span>erne fugl<span class="chord-container">e<span class="chord">G</span></span> flyver <span class="chord-container">a<span class="chord">C</span></span>fsted<br>S<span class="chord-container">e<span class="chord">Am<sup>7</sup></span></span>nsom<span class="chord-container">m<span class="chord">G</span></span>erens v<span class="chord-container">i<span class="chord">C</span></span>ser viser<br>d<span class="chord-container">e<span class="chord">Am<sup>7</sup></span></span>m hvor de ska<span class="chord-container">l<span class="chord">G</span></span> flyve <span class="chord-container">h<span class="chord">C</span></span>en<br>Lø<span class="chord-container">v<span class="chord">Am<sup>7</sup></span></span>fald der <span class="chord-container">k<span class="chord">G</span></span>naser u<span class="chord-container">n<span class="chord">C</span></span>der fødder,<br>jeg tror je<span class="chord-container">g<span class="chord">Am<sup>7</sup></span></span> lægger mig <span class="chord-container">i<span class="chord">G</span></span> græsset <span class="chord-container">h<span class="chord">C</span></span>er<br>T<span class="chord-container">r<span class="chord">Am<sup>7</sup></span></span>æerne<span class="chord-container">s<span class="chord">G</span></span> fa<span class="chord-container">r<span class="chord">C</span></span>ver, farver<br>h<span class="chord-container">e<span class="chord">Am<sup>7</sup></span></span>le min <span class="chord-container">v<span class="chord">G</span></span>erden <span class="chord-container">r<span class="chord">C</span></span>ød<br></p><p class="chord-container independent"><span class="chord-track"><span class="chord">||:</span><span class="chord">Am<sup>7</sup></span><span class="chord">G</span><span class="chord">C</span><span class="chord">C</span><span class="chord">:||</span></span></span></p><p>O<span class="chord-container">g<span class="chord">F<sup>maj7</sup></span></span> himlen <span class="chord-container">å<span class="chord">Am</span></span>bner sig<br>O<span class="chord-container">v<span class="chord">Em<sup>7</sup></span></span>er længer<span class="chord-container">’<span class="chord">A</span></span> tid<br>J<span class="chord-container">e<span class="chord">F<sup>maj7</sup></span></span>g indå<span class="chord-container">n<span class="chord">Am</span></span>der krystaller<br>F<span class="chord-container">r<span class="chord">Em<sup>7</sup></span></span>a den klare<span class="chord-container">s<span class="chord">A</span></span>te luft<br></p><p>N<span class="chord-container">u<span class="chord">F<sup>maj7</sup></span></span> har du <span class="chord-container">f<span class="chord">Am</span></span>arvet mig<br>I<span class="chord-container">&nbsp;<span class="chord">F<sup>maj7</sup></span></span>rød og grøn o<span class="chord-container">g<span class="chord">A</span></span> gul<br>M<span class="chord-container">e<span class="chord">F<sup>maj7</sup></span></span>d dine p<span class="chord-container">e<span class="chord">Am</span></span>nselstrøg<br>F<span class="chord-container">r<span class="chord">Em<sup>7</sup></span></span>a efterårets <span class="chord-container">s<span class="chord">A</span></span>kjul<br></p><p class="chord-container independent"><span class="chord-track"><span class="chord">||:</span><span class="chord">Am<sup>7</sup></span><span class="chord">G</span><span class="chord">C</span><span class="chord">C</span><span class="chord">:||</span></span></span></p><p>V<span class="chord-container">i<span class="chord">Am<sup>7</sup></span></span> ser mo<span class="chord-container">r<span class="chord">G</span></span>gen<span class="chord-container">s<span class="chord">C</span></span>olen<br>V<span class="chord-container">i<span class="chord">Am<sup>7</sup></span></span>sne blad<span class="chord-container">e<span class="chord">G</span></span> synger <span class="chord-container">i<span class="chord">C</span></span> vind<br>E<span class="chord-container">n<span class="chord">Am<sup>7</sup></span></span> duft a<span class="chord-container">f<span class="chord">G</span></span> regn de<span class="chord-container">r<span class="chord">C</span></span> regner<br>So<span class="chord-container">m<span class="chord">Am<sup>7</sup></span></span> still<span class="chord-container">e<span class="chord">G</span></span> beruse<span class="chord-container">r<span class="chord">C</span></span> os<br>O<span class="chord-container">g<span class="chord-track"><span class="chord">Am<sup>7</sup></span><span class="chord">G</span><span class="chord">C</span></span></span> vores trætte øjne<br>l<span class="chord-container">u<span class="chord">Am<sup>7</sup></span></span>kker langsom<span class="chord-container">t<span class="chord">G</span></span> verde<span class="chord-container">n<span class="chord">C</span></span> ind<br>H<span class="chord-container">e<span class="chord-track"><span class="chord">Am<sup>7</sup></span><span class="chord">G</span><span class="chord">C</span></span></span>r kan vi finde roen<br>V<span class="chord-container">i<span class="chord-track"><span class="chord">Am<sup>7</sup></span><span class="chord">G</span><span class="chord">C</span></span></span>  tager aldrig hjem<br></p><p class="chord-container independent"><span class="chord-track"><span class="chord">||:</span><span class="chord">Am<sup>7</sup></span><span class="chord">G</span><span class="chord">C</span><span class="chord">C</span><span class="chord">:||</span></span></span></p><p>O<span class="chord-container">g<span class="chord">F<sup>maj7</sup></span></span> himlen <span class="chord-container">å<span class="chord">Am</span></span>bner sig<br>O<span class="chord-container">v<span class="chord">Em<sup>7</sup></span></span>er længer<span class="chord-container">’<span class="chord">A</span></span> tid<br>J<span class="chord-container">e<span class="chord">F<sup>maj7</sup></span></span>g indå<span class="chord-container">n<span class="chord">Am</span></span>der krystaller<br>F<span class="chord-container">r<span class="chord">Em<sup>7</sup></span></span>a den klare<span class="chord-container">s<span class="chord">A</span></span>te luft<br></p><p>N<span class="chord-container">u<span class="chord">F<sup>maj7</sup></span></span> har du <span class="chord-container">f<span class="chord">Am</span></span>arvet mig<br>I<span class="chord-container">&nbsp;<span class="chord">F<sup>maj7</sup></span></span>rød og grøn o<span class="chord-container">g<span class="chord">A</span></span> gul<br>M<span class="chord-container">e<span class="chord">F<sup>maj7</sup></span></span>d dine p<span class="chord-container">e<span class="chord">Am</span></span>nselstrøg<br>F<span class="chord-container">r<span class="chord">Em<sup>7</sup></span></span>a efterårets <span class="chord-container">s<span class="chord">A</span></span>kjul<br></p><p class="chord-container independent"><span class="chord-track"><span class="chord">||:</span><span class="chord">Am<sup>7</sup></span><span class="chord">G</span><span class="chord">C</span><span class="chord">C</span><span class="chord">:||</span></span></span></p></div></div><div class="column"> <!-- --STJERNETRÅDE -- STJERNETRÅDE -- STJERNETRÅDE-- --><div class="img-track"><img src="/images/stjernetraade1723996443989.jpg"></div><div class="text-track"><div class="blomst blomst4"><img src="/images/alberte_blomst31723996443988.png"></div><h1>Stjernetråde</h1><button class="play-song-btn" onclick="playSong(this, '/audio/stjernetraade1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:4HoulYtIBG3TFrJyMkpKL4'"><img src="/images/spotifysmall1723996443989.png"> </button><p>D<span class="chord-container">u<span class="chord">C<span class="sharp"></span></span></span> siger d<span class="chord-container">e<span class="chord">C<span class="sharp"></span><sup>maj7</sup></span></span>t selv<br>D<span class="chord-container">u<span class="chord">C<span class="sharp"></span><sup>7</sup></span></span> siger d<span class="chord-container">e<span class="chord">C<span class="sharp"></span><sup>6</sup></span></span>t kort<br>Og du h<span class="chord-container">o<span class="chord">D<span class="sharp"></span>m</span></span>lder mig for ø<span class="chord-container">j<span class="chord">C<span class="sharp"></span></span></span>nene<br>O<span class="chord-container">g<span class="chord">Fm</span></span> gør det hele mindr<span class="chord-container">e<span class="chord">C<span class="sharp"></span><sup>7</sup></span></span> stort<br>V<span class="chord-container">i<span class="chord">C<span class="sharp"></span></span></span>l ha’ dig tætter<span class="chord-container">e<span class="chord">C<span class="sharp"></span><sup>maj7</sup></span></span> på<br>T<span class="chord-container">æ<span class="chord">C<span class="sharp"></span><sup>7</sup></span></span>ttere e<span class="chord-container">n<span class="chord">D<span class="sharp"></span>m</span></span>dnu<br>Vil aldrig ha’ at du går<span class="chord-container">&nbsp;<span class="chord-track"><span class="chord">C<span class="sharp"></span></span><span class="chord">C<span class="sharp"></span><sup>maj7</sup></span></span></span><br>Vil altid ha’ lig<span class="chord-container">e<span class="chord">C<span class="sharp"></span>7</span></span> nu<br></p><p>Og je<span class="chord-container">g<span class="chord">F<span class="sharp"></span></span></span> tror på at d<span class="chord-container">u<span class="chord">D<span class="sharp"></span></span></span> elsker mig &nbsp;&nbsp;&nbsp;<span class="chord-container">&nbsp;<span class="chord">F<span class="sharp"></span></span></span><br>Det tror je<span class="chord-container">g<span class="chord">D<span class="sharp"></span>7</span></span> på<br>Me<span class="chord-container">n<span class="chord">D<span class="sharp"></span>m</span></span> når jeg ikk<span class="chord-container">e<span class="chord">C<span class="sharp"></span></span></span> har dig &nbsp;&nbsp;<span class="chord-container">&nbsp;<span class="chord">C<span class="sharp"></span><sup>maj7</sup></span></span><br>Går alting lidt <span class="chord-container">i<span class="chord">C<span class="sharp"></span><sup>7</sup></span></span> stå<br></p><p>V<span class="chord-container">i<span class="chord">C<span class="sharp"></span></span></span> svømmer i e<span class="chord-container">t<span class="chord">C<span class="sharp"></span><sup>maj7</sup></span></span> stjernehav<br>M<span class="chord-container">e<span class="chord">C<span class="sharp"></span><sup>7</sup></span></span>n der svømmer vi ku<span class="chord-container">n<span class="chord">C<span class="sharp"></span><sup>6</sup></span></span> kort<br>Du l<span class="chord-container">æ<span class="chord">D<span class="sharp"></span>m</span></span>rer mig at træd<span class="chord-container">e<span class="chord">C<span class="sharp"></span></span></span> vande<br>O<span class="chord-container">g<span class="chord">Fm</span></span> gør det hele mindr<span class="chord-container">e<span class="chord">C<span class="sharp"></span><sup>7</sup></span></span> stort<br>D<span class="chord-container">e<span class="chord">C<span class="sharp"></span></span></span>r vokser stjern<span class="chord-container">e<span class="chord">C<span class="sharp"></span><sup>maj7</sup></span></span>tråde<br>D<span class="chord-container">e<span class="chord">C<span class="sharp"></span><sup>7</sup></span></span> snoer sig rundt o<span class="chord-container">m<span class="chord">D<span class="sharp"></span>m</span></span> mig<br>Og ansigterne i din<span class="chord-container">e<span class="chord">C<span class="sharp"></span></span></span> øjne<br>D<span class="chord-container">e<span class="chord">Fm</span></span> smiler ligesom mi<span class="chord-container">g<span class="chord">C<span class="sharp"></span><sup>7</sup></span></span><br></p><p>Og je<span class="chord-container">g<span class="chord">F<span class="sharp"></span></span></span> tror på at d<span class="chord-container">u<span class="chord">D<span class="sharp"></span></span></span> elsker mig &nbsp;&nbsp;&nbsp;<span class="chord-container">&nbsp;<span class="chord">F<span class="sharp"></span></span></span><br>Det tror je<span class="chord-container">g<span class="chord">D<span class="sharp"></span>7</span></span> på<br>Me<span class="chord-container">n<span class="chord">D<span class="sharp"></span>m</span></span> når jeg ikk<span class="chord-container">e<span class="chord">C<span class="sharp"></span></span></span> har dig &nbsp;&nbsp;<span class="chord-container">&nbsp;<span class="chord">C<span class="sharp"></span><sup>maj7</sup></span></span><br>Går alting lidt <span class="chord-container">i<span class="chord">C<span class="sharp"></span><sup>7</sup></span></span> stå<br></p><p>D<span class="chord-container">u<span class="chord">C<span class="sharp"></span></span></span> siger d<span class="chord-container">e<span class="chord">C<span class="sharp"></span><sup>maj7</sup></span></span>t selv<br>D<span class="chord-container">u<span class="chord">C<span class="sharp"></span><sup>7</sup></span></span> siger d<span class="chord-container">e<span class="chord">C<span class="sharp"></span><sup>6</sup></span></span>t kort<br>Og du h<span class="chord-container">o<span class="chord">D<span class="sharp"></span>m</span></span>lder mig for ø<span class="chord-container">j<span class="chord">C<span class="sharp"></span></span></span>nene<br>O<span class="chord-container">g<span class="chord">Fm</span></span> gør det hele mindr<span class="chord-container">e<span class="chord">C<span class="sharp"></span><sup>7</sup></span></span> stort<br>V<span class="chord-container">i<span class="chord">C<span class="sharp"></span></span></span>l ha’ dig tætter<span class="chord-container">e<span class="chord">C<span class="sharp"></span><sup>maj7</sup></span></span> på<br>T<span class="chord-container">æ<span class="chord">C<span class="sharp"></span><sup>7</sup></span></span>ttere e<span class="chord-container">n<span class="chord">D<span class="sharp"></span>m</span></span>dnu<br>Vil aldrig ha’ at du går<span class="chord-container">&nbsp;<span class="chord-track"><span class="chord">C<span class="sharp"></span></span><span class="chord">C<span class="sharp"></span><sup>maj7</sup></span></span></span><br>Vil altid ha’ lig<span class="chord-container">e<span class="chord">C<span class="sharp"></span>7</span></span> nu<br></p></div></div><div class="column"> <!-- --SJÆLÆETAG -- SJÆLÆETAG -- SJÆLÆETAG-- --><div class="img-track"><img src="/images/sjaeletag1723996443989.jpg"></div><div class="text-track"><h1>Sjæletag</h1><button class="play-song-btn" onclick="playSong(this, '/audio/sjaeletag1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:4yvAnQNETTt2LHO7k9AcH3'"><img src="/images/spotifysmall1723996443989.png"></button><p>Vi b<span class="chord-container">y<span class="chord">C<span class="sharp"></span>m</span></span>gger os et <span class="chord-container">s<span class="chord">G<span class="sharp"></span>m</span></span>jæletag<br><span class="chord-container">p<span class="chord">G</span></span>å bunden af vores <span class="chord-container">h<span class="chord">F<span class="sharp"></span>m</span></span>av<br><span class="chord-container">E<span class="chord">C<span class="sharp"></span>m</span></span>ndnu engang <span class="chord-container">f<span class="chord">G<span class="sharp"></span>m</span></span>inder jeg mig selv<br>I <span class="chord-container">c<span class="chord">G</span></span>entrum af din <span class="chord-container">h<span class="chord">F<span class="sharp"></span>m</span></span>avn<br></p><p>Og du <span class="chord-container">l<span class="chord">G</span></span>yser mig op <span class="chord-container">i<span class="chord">F<span class="sharp"></span>m</span></span>gen<br>Og du <span class="chord-container">v<span class="chord">G</span></span>iser mig vejen <span class="chord-container">h<span class="chord">F<span class="sharp"></span>m</span></span>jem<br></p><p>Til vores <span class="chord-container">s<span class="chord">G</span></span>ted<br>Det er kun os <span class="chord-container">t<span class="chord">F<span class="sharp"></span>m</span></span>o<br>Det følger ligesom bare <span class="chord-container">m<span class="chord">G</span></span>ed<br>Min nye <span class="chord-container">s<span class="chord">F<span class="sharp"></span>m</span></span>indsro<br></p></div></div><div class="column"> <!-- --TROLD -- TROLD -- TROLD-- --><div class="img-track"><img src="/images/trold1723996443989.jpg"></div><div class="text-track"><h1>Trold</h1><!--<button class="play-song-btn" onclick="playSong(this, '/audio/blode_universer1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button>--><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><!--<button class="toggle-chords" onclick="location.href='spotify:track:12voB7WS2o7FPzM0J6yLIF'"><img src="/images/spotifysmall1723996443989.png"> </button>--><p><span class="chord-container">D<span class="chord">Cm7</span></span>et er blevet <span class="chord-container">n<span class="chord">E<span class="flat"></span>maj7</span></span>at igen<br> <span class="chord-container">T<span class="chord">Cm7</span></span>iden den er <span class="chord-container">f<span class="chord">E<span class="flat"></span>maj7</span></span>rossen<br><span class="chord-container">T<span class="chord">Cm7</span></span>rolden, det er <span class="chord-container">s<span class="chord">E<span class="flat"></span>maj7</span></span>kovens ven<br><span class="chord-container">o<span class="chord">Cm7</span></span>g hvis du fælder den, bliver hun <span class="chord-container">t<span class="chord">E<span class="flat"></span>maj7</span></span>osset<br></p><p><span class="chord-container">T<span class="chord">G<span class="flat"></span>maj7</span></span>rolden hun danser <span class="chord-container">u<span class="chord">D<span class="flat"></span></span></span>nder nattesole<span class="chord-container">n<span class="chord-track"><span class="chord">Eb</span> <span class="chord">Eb<sup>7</sup></span></span></span><br>Med <span class="chord-container">h<span class="chord">G<span class="flat"></span>maj7</span></span>urtige øjne <span class="chord-container">k<span class="chord">D<span class="flat"></span></span></span>an hun altid følge me<span class="chord-container">d<span class="chord-track"><span class="chord">Eb</span> <span class="chord">Eb<sup>7</sup></span></span></span><br>I <span class="chord-container">s<span class="chord">G<span class="flat"></span>maj7</span></span>kovbundens varme, <span class="chord-container">u<span class="chord">D<span class="flat"></span></span></span>nder tornebuske<span class="chord-container">n<span class="chord-track"><span class="chord">Eb</span> <span class="chord">Eb<sup>7</sup></span></span></span><br><span class="chord-container">v<span class="chord">G<span class="flat"></span>maj7</span></span>okser hun sammen <span class="chord-container">m<span class="chord">D<span class="flat"></span></span></span>ed de tynde gren<span class="chord-container">e<span class="chord-track"><span class="chord">Eb</span> <span class="chord">Eb<sup>7</sup></span> <span class="chord">Db<sup>add9</sup></span></span></span><br></p><p><span class="chord-container">S<span class="chord">Cm7</span></span>koven er ut<span class="chord-container">r<span class="chord">E<span class="flat"></span>maj7</span></span>østelig<br><span class="chord-container">n<span class="chord">Cm7</span></span>år den bliver rase<span class="chord-container">n<span class="chord">E<span class="flat"></span>maj7</span></span>de<br><span class="chord-container">T<span class="chord">Cm7</span></span>ræer gror i <span class="chord-container">a<span class="chord">E<span class="flat"></span>maj7</span></span>fsky<br><span class="chord-container">v<span class="chord">Cm7</span></span>æk fra menneske<span class="chord-container">l<span class="chord">E<span class="flat"></span>maj7</span></span>armen<br></p><p><span class="chord-container">T<span class="chord">G<span class="flat"></span>maj7</span></span>rolden hun danser <span class="chord-container">u<span class="chord">D<span class="flat"></span></span></span>nder nattesole<span class="chord-container">n<span class="chord-track"><span class="chord">Eb</span> <span class="chord">Eb<sup>7</sup></span></span></span><br>Med <span class="chord-container">h<span class="chord">G<span class="flat"></span>maj7</span></span>urtige øjne <span class="chord-container">k<span class="chord">D<span class="flat"></span></span></span>an hun altid følge me<span class="chord-container">d<span class="chord-track"><span class="chord">Eb</span> <span class="chord">Eb<sup>7</sup></span></span></span><br>I <span class="chord-container">s<span class="chord">G<span class="flat"></span>maj7</span></span>kovbundens varme, <span class="chord-container">u<span class="chord">D<span class="flat"></span></span></span>nder tornebuske<span class="chord-container">n<span class="chord-track"><span class="chord">Eb</span> <span class="chord">Eb<sup>7</sup></span></span></span><br><span class="chord-container">v<span class="chord">G<span class="flat"></span>maj7</span></span>okser hun sammen <span class="chord-container">m<span class="chord">D<span class="flat"></span></span></span>ed de tynde gren<span class="chord-container">e<span class="chord-track"><span class="chord">Eb</span> <span class="chord">Eb<sup>7</sup></span> <span class="chord">Db<sup>add9</sup></span></span></span><br></p><p>I <span class="chord-container">s<span class="chord">A<span class="flat"></span></span></span>kovbundens<span class="chord-container">v<span class="chord">Fm6</span></span>arm<span class="chord-container">e<span class="chord-track"><span class="chord">Cm<sup>7</sup></span></span></span><br><span class="chord-container">V<span class="chord">A<span class="flat"></span></span></span>okser hun sammen <span class="chord-container">m<span class="chord">Fm6</span></span>ed de tynde gren<span class="chord-container">e<span class="chord-track"><span class="chord">Cm<sup>7</sup></span> <span class="chord">Bb</span></span></span><br></p><p><span class="chord-container">T<span class="chord">G<span class="flat"></span>maj7</span></span>rolden hun danser <span class="chord-container">u<span class="chord">D<span class="flat"></span></span></span>nder nattesole<span class="chord-container">n<span class="chord-track"><span class="chord">Eb</span> <span class="chord">Eb<sup>7</sup></span></span></span><br>Med <span class="chord-container">h<span class="chord">G<span class="flat"></span>maj7</span></span>urtige øjne <span class="chord-container">k<span class="chord">D<span class="flat"></span></span></span>an hun altid følge me<span class="chord-container">d<span class="chord-track"><span class="chord">Eb</span> <span class="chord">Eb<sup>7</sup></span></span></span><br>I <span class="chord-container">s<span class="chord">G<span class="flat"></span>maj7</span></span>kovbundens varme, <span class="chord-container">u<span class="chord">D<span class="flat"></span></span></span>nder tornebuske<span class="chord-container">n<span class="chord-track"><span class="chord">Eb</span> <span class="chord">Eb<sup>7</sup></span></span></span><br><span class="chord-container">v<span class="chord">G<span class="flat"></span>maj7</span></span>okser hun sammen <span class="chord-container">m<span class="chord">D<span class="flat"></span></span></span>ed de tynde gren<span class="chord-container">e<span class="chord-track"><span class="chord">Eb</span> <span class="chord">Eb<sup>7</sup></span> <span class="chord">Db<sup>add9</sup></span></span></span><br>          </p></div></div><div class="column"> <!-- --TRÆTTE VOKSNE -- TRÆTTE VOKSNE -- TRÆTTE VOKSNE-- --><div class="img-track"><img src="/images/runddans1723996443989.jpg"></div><div class="text-track"><h1>Trætte Voksne</h1><button class="play-song-btn" onclick="playSong(this, '/audio/traette_voksne1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:6q5Go58YCEmQkisuw1JYHT'"><img src="/images/spotifysmall1723996443989.png"> </button><p>D<span class="chord-container">u<span class="chord">A</span></span> holder fast i mi<span class="chord-container">g<span class="chord">D</span></span><br>I<span class="chord-container">m<span class="chord">A</span></span>ens det halve Københav<span class="chord-container">n<span class="chord">D</span></span> dummer sig<br>F<span class="chord-container">o<span class="chord">A</span></span>r jeg sidder i det samme gamle og trætt<span class="chord-container">e<span class="chord">D</span></span> vindue<br>O<span class="chord-container">g<span class="chord">A</span></span> jeg prøver virkelig at kunn<span class="chord-container">e<span class="chord">D</span></span> overskue<br></p><p>I<span class="chord-container">n<span class="chord">Dm</span></span>genmandsland o<span class="chord-container">g<span class="chord">Am</span></span> oxygen<br>S<span class="chord-container">o<span class="chord">Dm</span></span>lformørkelser je<span class="chord-container">g<span class="chord">Am</span></span> aldrig fik set<br>G<span class="chord-container">a<span class="chord">Em</span></span>delygterne de<span class="chord-container">r<span class="chord">A</span></span> bøjer sig<br>S<span class="chord-container">o<span class="chord">Em</span></span>m trætte voksne der ha<span class="chord-container">r<span class="chord">A</span></span> dummet sig<br></p><p>O<span class="chord-container">g<span class="chord">A</span></span> folk der flygter men må løb<span class="chord-container">e<span class="chord">D</span></span> videre<br>A<span class="chord-container">l<span class="chord">A</span></span>t jeg kan se er min<span class="chord-container">e<span class="chord">D</span></span> fødder<br>K<span class="chord-container">o<span class="chord">A</span></span>ntinenterne der sna<span class="chord-container">k<span class="chord">D</span></span>ker<br>A<span class="chord-container">n<span class="chord">A</span></span>sigterne der ha<span class="chord-container">k<span class="chord">D</span></span>ker<br></p><p>I<span class="chord-container">n<span class="chord">Dm</span></span>genmandsland o<span class="chord-container">g<span class="chord">Am</span></span> oxygen<br>S<span class="chord-container">o<span class="chord">Dm</span></span>lformørkelser je<span class="chord-container">g<span class="chord">Am</span></span> aldrig fik set<br>G<span class="chord-container">a<span class="chord">Em</span></span>delygterne de<span class="chord-container">r<span class="chord">A</span></span> bøjer sig<br>S<span class="chord-container">o<span class="chord">Em</span></span>m trætte voksne der ha<span class="chord-container">r<span class="chord">A</span></span> dummet sig<br></p><p>O<span class="chord-container">g<span class="chord">Em</span></span> gadelygterne de<span class="chord-container">r<span class="chord">A</span></span> bøjer sig<br>S<span class="chord-container">o<span class="chord">Em</span></span>m trætte voksne der ha<span class="chord-container">r<span class="chord">A</span></span> dummet sig<br>G<span class="chord-container">a<span class="chord">Em</span></span>delygterne de<span class="chord-container">r<span class="chord">A</span></span> bøjer sig<br>S<span class="chord-container">o<span class="chord">Em</span></span>m trætte voksne der ha<span class="chord-container">r<span class="chord">A</span></span> dummet sig<br></p></div></div><div class="column"> <!-- --ÅBNE FAVNE -- ÅBNE FAVNE -- ÅBNE FAVNE-- --><div class="img-track"><img src="/images/runddans1723996443989.jpg"></div><div class="text-track"><div class="blomst blomst5"><img src="/images/alberte_blomst21723996443988.png"></div><h1>Åbne Favne</h1><button class="play-song-btn" onclick="playSong(this, '/audio/aabne_favne1723996443988.mp3')"><img src="/images/play-icon1723996443989.svg"></button><button class="toggle-chords" onclick="toggleChords(this)"><img src="/images/chords1723996443988.svg"></button><button class="toggle-chords" onclick="location.href='spotify:track:4qp6oIZnhNeakthisDk9Yw'"><img src="/images/spotifysmall1723996443989.png"> </button><p>D<span class="chord-container">u<span class="chord">Dm</span></span> flygter genne<span class="chord-container">m<span class="chord">Am</span></span> sne<br>K<span class="chord-container">o<span class="chord">C</span></span>lde hjerter o<span class="chord-container">g<span class="chord">G</span></span> ensomhed<br>D<span class="chord-container">u<span class="chord">Dm</span></span> søger efte<span class="chord-container">r<span class="chord">Am</span></span> fred<br>Åbne arme og kærlighed<br></p><p>L<span class="chord-container">a<span class="chord">Dm</span></span>nge dage o<span class="chord-container">g<span class="chord">Am</span></span> kolde tær’<br>S<span class="chord-container">n<span class="chord">C</span></span>ekrystaller <span class="chord-container">d<span class="chord">G</span></span>er falder<br>N<span class="chord-container">e<span class="chord">Dm</span></span>d over Købe<span class="chord-container">n<span class="chord">Am</span></span>havn<br>J<span class="chord-container">e<span class="chord">C</span></span>g tager dig i mi<span class="chord-container">n<span class="chord">G</span></span> åbne favn<br></p><p>N<span class="chord-container">u<span class="chord">Dm</span></span> er det bleve<span class="chord-container">t<span class="chord">Am</span></span> jul igen<br>O<span class="chord-container">g<span class="chord">C</span></span> måske du savne<span class="chord-container">r<span class="chord">G</span></span> det derhjemme<br>O<span class="chord-container">g<span class="chord">Dm</span></span> vinteren den er ikk<span class="chord-container">e<span class="chord">Am</span></span> nem<br>Me<span class="chord-container">n<span class="chord">C</span></span> du må gern<span class="chord-container">e<span class="chord">G</span></span> være min ven<br></p><p>L<span class="chord-container">a<span class="chord">Dm</span></span>nge dage o<span class="chord-container">g<span class="chord">Am</span></span> kolde tær’<br>S<span class="chord-container">n<span class="chord">C</span></span>ekrystaller <span class="chord-container">d<span class="chord">G</span></span>er falder<br>N<span class="chord-container">e<span class="chord">Dm</span></span>d over Købe<span class="chord-container">n<span class="chord">Am</span></span>havn<br>J<span class="chord-container">e<span class="chord">C</span></span>g tager dig i mi<span class="chord-container">n<span class="chord">G</span></span> åbne favn<br></p><p>L<span class="chord-container">a<span class="chord">Dm</span></span>nge dage o<span class="chord-container">g<span class="chord">Am</span></span> kolde tær’<br>S<span class="chord-container">n<span class="chord">C</span></span>ekrystaller <span class="chord-container">d<span class="chord">G</span></span>er falder<br>N<span class="chord-container">e<span class="chord">Dm</span></span>d over Købe<span class="chord-container">n<span class="chord">Am</span></span>havn<br>J<span class="chord-container">e<span class="chord">C</span></span>g tager dig i mi<span class="chord-container">n<span class="chord">G</span></span> åbne favn<br></p><p>L<span class="chord-container">a<span class="chord">Dm</span></span>nge dage o<span class="chord-container">g<span class="chord">Am</span></span> kolde tær’<br>S<span class="chord-container">n<span class="chord">C</span></span>ekrystaller <span class="chord-container">d<span class="chord">G</span></span>er falder<br>N<span class="chord-container">e<span class="chord">Dm</span></span>d over Købe<span class="chord-container">n<span class="chord">Am</span></span>havn<br>J<span class="chord-container">e<span class="chord">C</span></span>g tager dig i mi<span class="chord-container">n<span class="chord">G</span></span> åbne favn<br></p></div></div><div class="player hidden" id="player"><div class="player-body"><div class="player-button hidden" id="button-stop"><button aria-label="play button" onclick="stopSong()"><img src="/images/close-icon1723996443988.svg"></button></div><img id="song-album" class="song-album hidden"><p class="song-title" id="song-title"></p><p class="song-time" id="song-time"></p><div class="player-button"><button aria-label="play button" onclick="toggleSong()"><img id="button-pause-icon" src="/images/pause-icon1723996443989.svg"><img id="button-play-icon" class="hidden" src="/images/play-icon1723996443989.svg"></button></div></div></div></main><footer><a href="https://www.facebook.com/AUFORImusik/" target="_blank" rel="noopener noreferrer"><img src="/images/facebook_logo1723996443988.png" alt="Facebook"></a><a href="https://www.instagram.com/aufori/" target="_blank" rel="noopener noreferrer"><img src="/images/instagramlogo1723996443988.png" alt="Instagram"></a><a href="https://open.spotify.com/artist/2yAzTbsX30WKUFmCfWiaIT?si=WzUc5ODpQeKkDLYP3Hq99w" target="_blank" rel="noopener noreferrer"><img src="/images/spotifylogo1723996443989.png" alt="Spotify"></a></footer><div id="cookie-warning"><p class="cookie-greeting">Hej! Må vi bruge cookies?<button class="cookie-readmore" onclick="cookieReadmore()">Læs mere</button><span class="spacer"></span><button class="cookie-accept" onclick="acceptCookies()">Ok</button></p><p class="cookie-text">Her på siden vil vi gerne bruge cookies til at tracke din adfærd. Alt det data vi har tænkt os at indsamle er anonymiseret og vi sælger ikke din data videre og tjener ikke penge på den. Vi ved hverken hvad du hedder eller hvor du bor 🌞 Vi bruger udelukkende dataen for at lære hvordan du navigerer rundt på siden, så vi kan gøre brugeroplevelsen bedre. Du bliver ikke tracket på nogen måde før du har klikket <i>OK</i> nedenfor.</p><div class="cookie-buttons"><button class="cookie-reject" onclick="rejectCookies()">Nej tak</button><button class="cookie-accept" onclick="acceptCookies()">Ok</button></div></div></body></html>

@@ -1,0 +1,691 @@
+<!DOCTYPE html><html><head><title>AUFORI: Sheet Music</title><meta property="og:title" content="AUFORI's hjemmeside"><meta property="og:image" content="https://aufori.dk/images/Logo21723996443988.jpg"><meta property="og:type" content="website"><link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700&display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=block" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet"><link rel="icon" type="image/png" href="/images/browserlogo1723996443988.png"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#fffffc"><meta name="format-detection" content="telephone=no"><meta charset="utf-8"><!-- Global site tag (gtag.js) - Google Analytics --><script type="text/javascript">function gtag () {return null}function activateAnalytics () {const script = document.createElement('script');script.setAttribute('src', 'https://www.googletagmanager.com/gtag/js?id=UA-120581100-2');script.setAttribute('type', 'text/javascript');script.setAttribute('async', true);script.addEventListener('load', function () {window.dataLayer = window.dataLayer || [];window.gtag = function gtag () {dataLayer.push(arguments);};gtag('js', new Date());gtag('config', 'UA-120581100-2');});document.head.appendChild(script);}window.addEventListener('load', function () {if (window.localStorage.getItem('cookie-consent') === 'accepted') {activateAnalytics();} else if (!window.localStorage.getItem('cookie-consent')) {document.getElementById('cookie-warning').classList.add('show');}});</script><meta property="og:description" content="Noder"><meta name="description" content="Noder"><meta property="og:url" content="https://aufori.dk/noder"><link rel="canonical" href="https://aufori.dk/noder"><script type="text/javascript" src="/modules/navigation1723996443989.js"></script><script type="text/javascript" src="/modules/cookie1723996443989.js"></script><style>@-ms-viewport{
+  width: device-width;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  font-family: 'Source Serif Pro', serif;
+  padding-bottom: 25rem;
+  box-sizing: border-box;
+  background-color: #fffffc;
+  font-size: 100%;
+}
+
+html {
+  font-size: 10px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+main::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Source Serif Pro', serif;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    width: 100% !important;
+  }
+}
+main {
+	padding-top: 8rem;
+}
+
+body{
+	background-image: url(/images/raat_papir31723996443989.png);
+	background-size: auto 100vh;
+  width: 100rem;
+  margin: 0 auto;
+  font-size: 100%;
+}
+
+.infobox {
+	position: relative;
+	width: 650px;
+	margin: 0 auto;
+	margin-bottom: 8rem;
+	font-family: Source Sans Pro, sans-serif;
+}
+
+.hovedblomst {
+	width: 250px;
+	-webkit-transform: rotate(90deg);
+	        transform: rotate(90deg);
+	margin: -15rem auto;
+	margin-bottom: -15.5rem;
+}
+
+.infobox > div > img {
+	width: 100%;
+
+}
+
+.text {
+	width: 100%;
+	padding-top: 1rem;
+	border-top: 1px solid #bbb;
+	border-right: 1px none red;
+}
+
+.infobox > .text > p {
+	padding: 0 1rem;
+	line-height: 1.2;
+	font-size: 1.4rem;
+}
+
+.singlespace {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.doublespace {
+	margin-top: 0.5em;
+}
+
+ol {
+	font-size: 1.3rem;
+}
+li {
+	padding-top: .2rem;
+	padding-left: .7rem;
+}
+
+.mail {
+	display: block;
+	color: black;
+}
+
+.button {
+	float: right;
+	font-size: 1.2rem;
+	margin-right: 5rem;
+	padding: .8rem 1.8rem;
+	margin-top: -1.5rem;
+	border: 1px solid black;
+	background-color: #eff0f2;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+.button:hover {
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.button:active {
+	background-color: #e1e2e4;
+}
+
+
+.node-container {
+
+	margin: 5rem auto;
+	display: flex;
+	justify-content: center;
+}
+
+.node-display{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 4rem;
+	width: 100%;
+}
+
+.node {
+	position: relative;
+	width: 100%;
+	background-color: #fff;
+	cursor: pointer;
+	box-shadow: 0px 2px 6px 0 #636363;
+	overflow: hidden;
+
+}
+
+.node img {
+	width: 100%;
+}
+
+.sangtitel{
+	top: -1px;
+	-webkit-transform: translateY(-110%);
+	        transform: translateY(-110%);
+}
+
+.albumtitel{
+	bottom: -1px;
+	-webkit-transform: translateY(110%);
+	        transform: translateY(110%);
+}
+
+.albumtitel, .sangtitel {
+	position: absolute;
+	width: 100%;
+	background-color: rgba(23,23,23, 0.74);
+	border-radius: 1px;
+	transition: ease-in-out 200ms;
+	transition-delay:10ms;
+	box-shadow: 0px 0px 12px 0 #868686;
+}
+
+.sangtitel > p {
+	text-align: center;
+	color: white;
+	font-size: 1.8rem;
+	margin: 1rem auto;
+	text-shadow: -1px 1px 5px #000000;
+}
+
+.albumtitel > p {
+	text-align: center;
+	color: white;
+	font-size: 1.2rem;
+	margin: 1rem auto;
+	text-shadow: -1px 1px 5px #000000;
+}
+
+.node:hover .sangtitel, .node:hover .albumtitel{
+	-webkit-transform: translateY(0%);
+	        transform: translateY(0%);
+}
+
+.popup {
+	display: block;
+	z-index: 200;
+	position: fixed;
+	width: 80%;
+	max-width: 600px;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%) scale(0);
+	        transform: translate(-50%, -50%) scale(0);
+	transition: 200ms ease-in-out;
+	background-color: #fff;
+	border: 1px solid black;
+}
+
+.popup.active {
+	-webkit-transform: translate(-50%, -50%) scale(1);
+	        transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img {
+	max-width: 100%;
+}
+
+.popup button {
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-size: 3rem;
+	background:none;
+	width: 4rem;
+	height: 4rem;
+}
+
+#overlay {
+	pointer-events: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0, 0.5);
+	transition: 200ms ease-in-out;
+	opacity: 0;
+}
+
+#overlay.active {
+	pointer-events: all;
+	opacity: 1;
+	z-index: 199;
+}
+
+@media screen and (max-width: 1100px) {
+	.node-container {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.hovedblomst {
+		margin: -20rem auto;
+		margin-bottom: -15.5rem;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.node-display{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 733px) {
+	.infobox{
+		width: 85%;
+	}
+
+	.button{
+		margin-top: 1.5rem;
+		margin-right: 0;
+		margin-left: 1rem;;
+		float: left;
+	}
+
+	.hovedblomst {
+		width: 200px;
+		margin: -20rem auto;
+		margin-bottom: -12.5rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.node-display{
+		grid-template-columns: 1fr;
+	}
+
+	.node-container{
+		width: 70%;
+	}
+
+	.hovedblomst {
+		width: 170px;
+		margin: -15rem auto;
+		margin-bottom: -10.5rem;
+	}
+}
+
+@media screen and (max-width: 400px) {
+
+	.hovedblomst {
+		width: 130px;
+		margin: -13rem auto;
+		margin-bottom: -8.5rem;
+	}
+}
+nav {
+  font-size: 2.5rem;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  line-height: 3rem;
+  padding: 4rem 0 2rem;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "level-1-left level-1-right"
+    "level-2 level-2";
+  justify-content: end;
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav .nav-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  overflow: hidden;
+  transition: height 0.3s ease-out;
+}
+
+nav .nav-row.level-1.left {
+  grid-area: level-1-left;
+}
+
+nav .nav-row.level-1.right {
+  grid-area: level-1-right;
+}
+
+nav .nav-row.level-1 {
+  height: 3.5rem;
+  align-items: flex-end;
+}
+
+nav .nav-row.level-2 {
+  grid-area: level-2;
+  height: 0;
+  align-items: flex-start;
+}
+
+nav.show-dropdown .nav-row.level-1 {
+  height: 0;
+}
+
+nav.show-dropdown .nav-row.level-2 {
+  height: 3.5rem;
+}
+
+nav .nav-row > * {
+  color: #1d1d1d;
+  text-decoration: none;
+  padding: 0 0.6rem 0.2rem;
+  border-bottom: 1px solid transparent;
+  margin-left: 4rem;
+  cursor: pointer;
+}
+
+nav .nav-row > *:visited {
+  color: #1d1d1d;
+}
+
+nav .nav-row > *:hover {
+  border-color: #bebebe;
+}
+
+nav .nav-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    background: transparent;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-out;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav .hide-on-mobile {
+    display: none;
+  }
+
+  nav.open {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    pointer-events: all;
+  }
+
+  nav .nav-row {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    opacity: 0;
+    position: relative;
+    -webkit-transform: translateY(-5vh);
+            transform: translateY(-5vh);
+    transition: all 0.2s ease-out;
+  }
+
+  nav .nav-row.level-1 {
+    height: auto;
+    align-items: center;
+  }
+
+  nav .nav-row.level-2 {
+    align-items: center;
+  }
+
+  nav.show-dropdown .nav-row.level-2 {
+    height: auto;
+  }
+
+  nav.open > .nav-row {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+
+  nav .nav-row > * {
+    margin: 1rem 0;
+  }
+
+  nav .nav-toggle {
+    display: block;
+    position: absolute;
+    background-image: url(/images/menu1723996443989.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    top: 1rem;
+    left: 1rem;
+    width: 4rem;
+    height: 4rem;
+    opacity: 0.5;
+    outline: none;
+    z-index: 1000;
+    pointer-events: all;
+  }
+
+  nav.open .nav-toggle {
+    background-image: url(/images/close1723996443988.png);
+    -webkit-filter: none;
+            filter: none;
+    opacity: 0.5 !important;
+  }
+}
+
+@media print {
+  nav {
+    display: none;
+  }
+}
+footer {
+  text-align: center;
+  padding: 1rem 0 12rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer a {
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+footer img {
+  width: 4rem;
+  height: 4rem;
+  opacity: 0.3;
+  transition: opacity 0.2s ease-out;
+}
+
+footer img:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  footer img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+
+@media print {
+  footer {
+    display: none;
+  }
+}
+@-webkit-keyframes slide-in {
+  0% {
+    -webkit-transform: translate3d(0, calc(150% + 10rem), 0);
+            transform: translate3d(0, calc(150% + 10rem), 0);
+  }
+
+  50% {
+    -webkit-transform: translate3d(0, calc(150% + 10rem), 0);
+            transform: translate3d(0, calc(150% + 10rem), 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    -webkit-transform: translate3d(0, calc(150% + 10rem), 0);
+            transform: translate3d(0, calc(150% + 10rem), 0);
+  }
+
+  50% {
+    -webkit-transform: translate3d(0, calc(150% + 10rem), 0);
+            transform: translate3d(0, calc(150% + 10rem), 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+#cookie-warning {
+  display: none;
+  width: 80rem;
+  left: calc(50% - 40rem);
+  bottom: 1rem;
+  position: fixed;
+  background-color: #fffffc;
+  box-shadow: 0px 0px 10px 0px #aaa;
+  padding: 1.5rem;
+  border-radius: 2px;
+  z-index: 50;
+}
+
+#cookie-warning.show {
+  display: block;
+  -webkit-animation: slide-in 2s ease-out;
+          animation: slide-in 2s ease-out;
+}
+
+#cookie-warning .cookie-greeting {
+  display: flex;
+  align-items: center;
+}
+
+#cookie-warning .spacer {
+  flex: 1 0 auto;
+}
+
+#cookie-warning.open .cookie-greeting {
+  display: none;
+}
+
+#cookie-warning .cookie-greeting button:not(.cookie-accept) {
+  margin-left: 0.5rem;
+  background: transparent;
+  border: 0;
+  color: #759f5a;
+  font-size: 1.6rem;
+  padding: 0;
+}
+
+#cookie-warning .cookie-text {
+  display: none;
+}
+
+#cookie-warning.open .cookie-text {
+  display: block;
+}
+
+#cookie-warning p {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+#cookie-warning .cookie-buttons {
+  display: none;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#cookie-warning.open .cookie-buttons {
+  display: flex;
+}
+
+#cookie-warning .cookie-buttons > button,
+#cookie-warning .cookie-greeting .cookie-accept {
+  margin-left: 0.5rem;
+  padding: 0.6rem 0;
+  width: 10rem;
+  font-size: 2rem;
+  font-family: 'Amatic SC', cursive;
+  border: 0;
+}
+
+#cookie-warning .cookie-accept {
+  background-color: #759f5a;
+}
+
+#cookie-warning .cookie-reject {
+  background-color: #ddddd7;
+}
+
+
+@media screen and (max-width: 945px){
+  #cookie-warning{
+    width: 70rem;
+    left: calc(50% - 35rem)
+  }
+}
+
+@media screen and (max-width: 945px){
+  #cookie-warning{
+    width: 64rem;
+    left: calc(50% - 32rem)
+  }
+}
+
+@media screen and (max-width: 745px){
+  #cookie-warning{
+    width: 48rem;
+    left: calc(50% - 24rem)
+  }
+}
+
+@media screen and (max-width: 573px){
+  #cookie-warning{
+    width: 40rem;
+    left: calc(50% - 20rem)
+  }
+}
+
+@media screen and (max-width: 480px){
+  #cookie-warning{
+    width: 30rem;
+    left: calc(50% - 15rem)
+  }
+
+  #cookie-warning p, #cookie-warning .cookie-greeting button{
+    font-size: 1.3rem;
+  }
+}
+</style></head><body><nav id="menu" onmouseleave="hideMusicDropdown(1000)" onmouseenter="clearDropdownTimeout()"><button id="nav-toggle" class="nav-toggle"></button><div class="nav-row level-1 left"><a href="/en/">Home</a><a href="/en/om_os">About</a><a href="/en/tekster">Lyrics and Chords</a><a href="/en/koncerter">Live</a><a href="/en/kontakt">Contact</a><!--<span onclick="showMusicDropdown()">Music</span>--></div><!--<div class="nav-row level-2"><span onclick="hideMusicDropdown()">&larr;</span><a href="/en/tekster">Lyrics and Chords</a><a href="/en/diskografi">Discography</a><a href="/en/video">Video</a><a href="/en/noder">Scores</a></div><div class="nav-row level-1 right"><a href="/en/tekster">Lyrics and Chords</a><a href="/en/koncerter">Live</a><a href="/en/kontakt">Contact</a>--></div></nav><main><div class="infobox"><div class="hovedblomst"><img src="/images/alberte_blomst11723996443988.png"></div><div class="text"><p class="doublespace">Vi har lavet fulde partiturer af mange af vores sange, og der vil løbende komme flere. Dem kan du købe her.</p><p class="doublespace">Noderne er alle grundigt udarbejdet af os selv, og er derfor meget tro mod de originale indspilninger. Når du køber vores noder støtter du os, så vi kan blive ved med at lave ny musik til glæde og gavn for alle.</p><p class="doublespace">Når du køber en node, så får du en PDF med en lille note omkring sangen og hvordan den spilles. Følgende er inkluderet med noden: <ol><li>Et masterpartitur (alle stemmerne samlet)</li><li>Hver stemme seperat - oplagt til bandspil</li><li>Melodilinje med becifringer - oplagt til fællessang</li></ol></p><p class="singlespace">Hver node/sang koster 20kr pr stk.</p><p class="singlespace">Et helt album kan købes for 100kr og alle 14 sange for 150kr.</p><p class="singlespace">Du kan købe ved at sende en mail til noder@aufori.dk</p></div><a class="mail" href="mailto:noder@aufori.dk"><div class="button">Send en mail her</div></a></div><div class="node-container"><div class="node-display"><div class="node" data-node-target="#node1"><img src="/images/noder/traette-voksne1723996443989.png"><!--<div class="sangtitel"><p>Trætte Voksne</p></div><div class="albumtitel"><p>Runddans 2018</p></div>--></div><div class="node" data-node-target="#node2"><img src="/images/noder/aabne-favne1723996443989.png"><!--<div class="sangtitel"><p>Hjemløs</p></div><div class="albumtitel"><p>Runddans 2018</p></div>--></div><!--<div class="node" data-node-target="#node3"><img src="/images/noder/node-eksempel3.png"><div class="sangtitel"><p>Luft</p></div><div class="albumtitel"><p>Runddans 2018</p></div></div><div class="node" data-node-target="#node4"><img src="/images/noder/node-eksempel4.png"><div class="sangtitel"><p>Kaffekopper</p></div><div class="albumtitel"><p>Runddans 2018</p></div></div><div class="node" data-node-target="#node5"><img src="/images/noder/node-eksempel5.png"><div class="sangtitel"><p>Åbne Favne</p></div><div class="albumtitel"><p>Runddans 2018</p></div></div><div class="node" data-node-target="#node6"><img src="/images/noder/node-eksempel6.png"><div class="sangtitel"><p>Runddans</p></div><div class="albumtitel"><p>Runddans 2018</p></div></div><div class="node" data-node-target="#node7"><img src="/images/noder/node-eksempel7.png"><div class="sangtitel"><p>Trætte Voksne</p></div><div class="albumtitel"><p>Runddans 2018</p></div>--></div></div></div><div class="popup" id="node1"><img src="/images/noder/traette-voksne1723996443989.png"><button data-close-button class="close-button">&times;</button></div><div class="popup" id="node2"><img src="/images/noder/aabne-favne1723996443989.png"><button data-close-button class="close-button">&times;</button></div><div class="popup" id="node3"><img src="/images/noder/node-eksempel3.png"><button data-close-button class="close-button">&times;</button></div><div class="popup" id="node4"><img src="/images/noder/node-eksempel4.png"><button data-close-button class="close-button">&times;</button></div><div class="popup" id="node5"><img src="/images/noder/node-eksempel5.png"><button data-close-button class="close-button">&times;</button></div><div class="popup" id="node6"><img src="/images/noder/node-eksempel6.png"><button data-close-button class="close-button">&times;</button></div><div class="popup" id="node7"><img src="/images/noder/node-eksempel7.png"><button data-close-button class="close-button">&times;</button></div><div id="overlay"></div></main><footer><a href="https://www.facebook.com/AUFORImusik/" target="_blank" rel="noopener noreferrer"><img src="/images/facebook_logo1723996443988.png" alt="Facebook"></a><a href="https://www.instagram.com/aufori/" target="_blank" rel="noopener noreferrer"><img src="/images/instagramlogo1723996443988.png" alt="Instagram"></a><a href="https://open.spotify.com/artist/2yAzTbsX30WKUFmCfWiaIT?si=WzUc5ODpQeKkDLYP3Hq99w" target="_blank" rel="noopener noreferrer"><img src="/images/spotifylogo1723996443989.png" alt="Spotify"></a></footer><div id="cookie-warning"><p class="cookie-greeting"><button class="cookie-readmore" onclick="cookieReadmore()"></button><span class="spacer"></span><button class="cookie-accept" onclick="acceptCookies()"></button></p><p class="cookie-text"></p><div class="cookie-buttons"><button class="cookie-reject" onclick="rejectCookies()"></button><button class="cookie-accept" onclick="acceptCookies()"></button></div></div><script type="text/javascript" src="/noder/noder1723996443989.js"></script></body></html>
